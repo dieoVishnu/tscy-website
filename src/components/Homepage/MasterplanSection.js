@@ -195,7 +195,7 @@ function MasterplanSection() {
             </div>
           </div>
         </div>
-        <div className="master-plan-card">
+        <div className="master-plan-card ml-5">
           <div className="master-plan-card--main-wrapper">
             <div className="master-plan-card__title-wrapper">
               <h2>Master Plan</h2>

@@ -10,8 +10,9 @@ import Environment from "../../assets/images/sustainable-feature/ENVIRONMENT-min
 import Economic from "../../assets/images/sustainable-feature/ECONOMIC-min.jpeg";
 function SustainableFeaturesSection() {
   return (
-    <div className="section sustainable-features-section">
-      <div className="container">
+    <div className="section sustainable-features-section ">
+      <div className="fp-tableCell">
+      <div className="container flex-center-style">
         <div className="twocol-row align-items-center">
           <div className="col-10">
             <Swiper
@@ -203,6 +204,7 @@ function SustainableFeaturesSection() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
