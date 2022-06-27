@@ -6,6 +6,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import MasterplanSection from "./components/Homepage/MasterplanSection";
 import LocationSection from "./components/Homepage/LocationSection";
 import Footer from "./components/Footer";
+import SustainableFeaturesSection from "./components/Homepage/SustainableFeaturesSection";
 
 const App = () => (
   <ReactFullpage
@@ -15,10 +16,10 @@ const App = () => (
     render={({ state, fullpageApi }) => {
       return (
         <>
-          <Header></Header>
           <ReactFullpage.Wrapper>
+            <Header></Header>
             <Banner></Banner>
-            <SustainableFeatures></SustainableFeatures>
+            <SustainableFeaturesSection></SustainableFeaturesSection>
             <MasterplanSection></MasterplanSection>
             <LocationSection></LocationSection>
             <Footer></Footer>

@@ -4,7 +4,7 @@ import banner from "../../assets/images/banner-img/banner-img-1.png";
 import banner2 from "../../assets/images/banner-img/banner-img-2.png";
 import banner3 from "../../assets/images/banner-img/banner-img-3.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Navigation, Pagination } from "swiper";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -41,9 +41,9 @@ function setTransitionFunction(speed) {
 
 function Banner() {
   return (
-    <div class="section banner-section">
+    <div className="section banner-section">
       <Swiper
-        class="hero__slider"
+        className="hero__slider"
         modules={[Navigation, Pagination]}
         loop={true}
         speed={1000}
@@ -77,11 +77,11 @@ function Banner() {
         }}
       >
         <SwiperSlide>
-          <div class="hero-slide-wrapper">
-            <div class="hero__img">
+          <div className="hero-slide-wrapper">
+            <div className="hero__img">
               <img src={banner} alt="banner-img" />
             </div>
-            <div class="hero__caption">
+            <div className="hero__caption">
               <h1>
                 LEAD THE CHANGE
                 <span>TODAY FOR A BETTER TOMORROW</span>
@@ -90,10 +90,10 @@ function Banner() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="hero__img">
+          <div className="hero__img">
             <img src={banner2} alt="banner-img" />
           </div>
-          <div class="hero__caption">
+          <div className="hero__caption">
             <h1>
               LEAD THE CHANGE
               <span>TODAY FOR A BETTER TOMORROW</span>
@@ -101,10 +101,10 @@ function Banner() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div class="hero__img">
+          <div className="hero__img">
             <img src={banner3} alt="banner-img" />
           </div>
-          <div class="hero__caption">
+          <div className="hero__caption">
             <h1>
               LEAD THE CHANGE
               <span>TODAY FOR A BETTER TOMORROW</span>
@@ -115,16 +115,16 @@ function Banner() {
     </div>
 
     /*
-    <div class="section banner-section">
-      <div class="hero__slider js-hero">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="hero-slide-wrapper">
-                <div class="hero__img">
+    <div className="section banner-section">
+      <div className="hero__slider js-hero">
+        <div className="swiper-container">
+          <div className="swiper-wrapper">
+            <div className="swiper-slide">
+              <div className="hero-slide-wrapper">
+                <div className="hero__img">
                   <img src={banner} alt="banner-img" />
                 </div>
-                <div class="hero__caption">
+                <div className="hero__caption">
                   <h1>
                     LEAD THE CHANGE
                     <span>TODAY FOR A BETTER TOMORROW</span>
@@ -132,12 +132,12 @@ function Banner() {
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="hero-slide-wrapper">
-                <div class="hero__img">
+            <div className="swiper-slide">
+              <div className="hero-slide-wrapper">
+                <div className="hero__img">
                   <img src={banner2} alt="banner-img" />
                 </div>
-                <div class="hero__caption">
+                <div className="hero__caption">
                   <h1>
                     LEAD THE CHANGE
                     <span>TODAY FOR A BETTER TOMORROW</span>
@@ -145,12 +145,12 @@ function Banner() {
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
-              <div class="hero-slide-wrapper">
-                <div class="hero__img">
+            <div className="swiper-slide">
+              <div className="hero-slide-wrapper">
+                <div className="hero__img">
                   <img src={banner3} alt="banner-img" />
                 </div>
-                <div class="hero__caption">
+                <div className="hero__caption">
                   <h1>
                     LEAD THE CHANGE
                     <span>TODAY FOR A BETTER TOMORROW</span>
@@ -159,7 +159,7 @@ function Banner() {
               </div>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
+          <div className="swiper-pagination"></div>
         </div>
       </div>
     </div>
