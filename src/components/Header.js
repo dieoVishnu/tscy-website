@@ -7,17 +7,15 @@ function Header() {
   return (
     <header
       id="header"
-      class="header"
-      /*      class="header animate"
+      className="header"
       data-animation="fadeInUp"
       data-duration="100"
-*/
     >
-      <div class="header__wrapper">
-        <div class="header__left">
+      <div className="header__wrapper">
+        <div className="header__left">
           <a href="/">
             <div
-              class="brand-logo "
+              className="brand-logo "
               data-animation="fadeInUp"
               data-duration="100"
             >
@@ -26,63 +24,66 @@ function Header() {
             </div>
           </a>
         </div>
-        <div class="mobile-navigation-wrapper">
-          <div class="header__middle">
-            <div class="header__lists">
-              <ul class="h-service-list appartment-list">
-                <li class="h-service-item appartment-item haschildren hasMenu">
-                  <a href="/#MasterPlan" class="h-service-cta appartment-cta">
+        <div className="mobile-navigation-wrapper">
+          <div className="header__middle">
+            <div className="header__lists">
+              <ul className="h-service-list appartment-list">
+                <li className="h-service-item appartment-item haschildren hasMenu">
+                  <a
+                    href="/#MasterPlan"
+                    className="h-service-cta appartment-cta"
+                  >
                     <p> Find Your Villa </p>
                   </a>
-                  <div class="inner-megamenu">
-                    <div class="menu-list">
+                  <div className="inner-megamenu">
+                    <div className="menu-list">
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="400"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           Courtyard Villa
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           3 Bedroom Unit
                           <span>West Villas</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/unit-feature/bedroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               3 Bedroom
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -90,10 +91,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="/3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -102,52 +103,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="600"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           Courtyard Villa
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           4 Bedroom Unit
                           <span>West Villas</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/unit-feature/bedroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               4 Bedroom
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -155,10 +156,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="/4-bedroom-courtyard-villa-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -167,52 +168,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="800"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           Garden Villa
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           4 Bedroom Unit
                           <span>East Villas</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/unit-feature/bedroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               4 Bedroom{" "}
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -220,10 +221,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="/4-bedroom-garden-villa-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -233,52 +234,52 @@ function Header() {
                       </div>
                       {/*{" "}
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="1000"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE D
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 5,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               9 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -286,10 +287,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -298,52 +299,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="1200"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE E
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 3,200 PER MONTH
                           <span>Built Up Area 4,250 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               4 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -351,10 +352,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -363,52 +364,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="1400"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           END UNIT- TYPE E FARM
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 5,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               9 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -416,10 +417,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -431,60 +432,63 @@ function Header() {
                     </div>
                   </div>
                 </li>
-                <li class="h-service-item appartment-item haschildren">
-                  <a href="floor-plan.php" class="h-service-cta appartment-cta">
+                <li className="h-service-item appartment-item haschildren">
+                  <a
+                    href="floor-plan.php"
+                    className="h-service-cta appartment-cta"
+                  >
                     <p>Floor Plans</p>
                   </a>
                   {/*{" "}
-                  <div class="inner-megamenu">
-                    <div class="menu-list">
+                  <div className="inner-megamenu">
+                    <div className="menu-list">
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="400"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE A
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 2,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               5 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -492,10 +496,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -504,52 +508,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="600"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE B
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 2,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               5 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -557,10 +561,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -569,52 +573,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="800"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE C
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 2,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               5 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -622,10 +626,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -634,52 +638,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="1000"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE D
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 5,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               9 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -687,10 +691,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -702,60 +706,60 @@ function Header() {
                   </div>{" "}
                   */}
                 </li>
-                <li class="h-service-item appartment-item haschildren">
-                  <a href="/news.php" class="h-service-cta appartment-cta">
+                <li className="h-service-item appartment-item haschildren">
+                  <a href="/news.php" className="h-service-cta appartment-cta">
                     <p>News</p>
                   </a>
                   {/*{" "}
-                  <div class="inner-megamenu">
-                    <div class="menu-list">
+                  <div className="inner-megamenu">
+                    <div className="menu-list">
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="400"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE A
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 2,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               5 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -763,10 +767,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -775,52 +779,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="600"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE B
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 2,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               5 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -828,10 +832,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -840,52 +844,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="800"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE C
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 2,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               5 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -893,10 +897,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -905,52 +909,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="1000"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE D
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 5,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               9 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -958,10 +962,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -975,73 +979,73 @@ function Header() {
                 </li>
               </ul>
               {/*{" "}
-              <ul class="h-service-list town-house-list">
-                <li class="h-service-item town-house-item">
-                  <div class="tile-icon">
+              <ul className="h-service-list town-house-list">
+                <li className="h-service-item town-house-item">
+                  <div className="tile-icon">
                     <img
                       src="/assets/svg/header/town-house-icon.svg"
                       width="45"
                       height="30"
                       alt=""
-                      class="svg-convert"
+                      className="svg-convert"
                     />
                   </div>
                 </li>
-                <li class="h-service-item townhouse-item haschildren">
-                  <a href="javascript:" class="h-service-cta appartment-cta">
+                <li className="h-service-item townhouse-item haschildren">
+                  <a href="javascript:" className="h-service-cta appartment-cta">
                     <p>
                       3 Bedroom <span>Townhouse</span>
                     </p>
                   </a>
-                  <div class="inner-megamenu">
-                    <div class="menu-list">
+                  <div className="inner-megamenu">
+                    <div className="menu-list">
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="400"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE C1
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 3,154 PER MONTH
                           <span>Built Up Area 6,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               3 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -1049,10 +1053,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -1061,52 +1065,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="600"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE C2
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 2,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               5 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -1114,10 +1118,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -1126,52 +1130,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="800"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE C
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 2,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               5 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -1179,10 +1183,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -1191,52 +1195,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="1000"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE D
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,674 PER MONTH
                           <span>Built Up Area 5,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               9 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -1244,10 +1248,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -1258,61 +1262,61 @@ function Header() {
                     </div>
                   </div>
                 </li>
-                <li class="h-service-item appartment-item haschildren">
-                  <a href="javascript:" class="h-service-cta appartment-cta">
+                <li className="h-service-item appartment-item haschildren">
+                  <a href="javascript:" className="h-service-cta appartment-cta">
                     <p>
                       4 Bedroom <span>Apartment</span>
                     </p>
                   </a>
-                  <div class="inner-megamenu">
-                    <div class="menu-list">
+                  <div className="inner-megamenu">
+                    <div className="menu-list">
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="400"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE D2
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 9,574 PER MONTH
                           <span>Built Up Area 2,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               4 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -1320,10 +1324,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -1332,52 +1336,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="600"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           END UNIT - TYPE D3
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 3,674 PER MONTH
                           <span>Built Up Area 1,650 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               5 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -1385,10 +1389,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -1397,52 +1401,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="800"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE C3
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 5,474 PER MONTH
                           <span>Built Up Area 2,450 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               5 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -1450,10 +1454,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -1462,52 +1466,52 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        class="menu-card animate"
+                        className="menu-card animate"
                         data-animation="zoomIn"
                         data-duration="1000"
                       >
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           MID UNIT - TYPE D5
                         </p>
                         <p
-                          class="animate"
+                          className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
                           STARTING FROM OMR 7,541 PER MONTH
                           <span>Built Up Area 3,958 Sq.ft</span>
                         </p>
-                        <div class="mega-footer">
-                          <div class="bathrooms">
+                        <div className="mega-footer">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/bathroom.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
                               4 Bathrooms
                             </span>
                           </div>
-                          <div class="bathrooms">
+                          <div className="bathrooms">
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              class="animate"
+                              className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -1515,10 +1519,10 @@ function Header() {
                             </span>
                           </div>
                         </div>
-                        <div class="learn-more">
+                        <div className="learn-more">
                           <a
                             href="3-bedroom-detail.php"
-                            class="common-anchor animate"
+                            className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -1534,10 +1538,10 @@ function Header() {
             </div>
           </div>
         </div>
-        <div class="find-villa">
+        <div className="find-villa">
           <span
             id="find-your-villa"
-            class="animate"
+            className="animate"
             data-animation="fadeInUp"
             data-duration="300"
           >
@@ -1545,21 +1549,21 @@ function Header() {
           </span>
         </div>
 
-        <div class="header-villa-cross">
+        <div className="header-villa-cross">
           <span></span>
           <span></span>
         </div>
-        <div class="header__menu-mbl">
-          <div class="mobile-unit">
-            <div class="mobile-menu-card">
-              <div class="bs-example">
-                <div class="accordion" id="accordionExample">
-                  <div class="card">
-                    <div class="card-header" id="headingOne">
-                      <h2 class="mb-0">
+        <div className="header__menu-mbl">
+          <div className="mobile-unit">
+            <div className="mobile-menu-card">
+              <div className="bs-example">
+                <div className="accordion" id="accordionExample">
+                  <div className="card">
+                    <div className="card-header" id="headingOne">
+                      <h2 className="mb-0">
                         <button
                           type="button"
-                          class="btn btn-link"
+                          className="btn btn-link"
                           data-toggle="collapse"
                           data-target="#collapseOne"
                         >
@@ -1569,54 +1573,54 @@ function Header() {
                     </div>
                     <div
                       id="collapseOne"
-                      class="collapse"
+                      className="collapse"
                       aria-labelledby="headingOne"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="menu-card">
+                      <div className="card-body">
+                        <div className="menu-card">
                           <p
-                            class="animate"
+                            className="animate"
                             data-animation="fadeInUp"
                             data-duration="300"
                           >
                             MID UNIT - TYPE D
                           </p>
                           <p
-                            class="animate"
+                            className="animate"
                             data-animation="fadeInUp"
                             data-duration="400"
                           >
                             STARTING FROM OMR 5,674 PER MONTH
                             <span>Built Up Area 2,650 Sq.ft</span>
                           </p>
-                          <div class="mega-footer">
-                            <div class="bathrooms">
+                          <div className="mega-footer">
+                            <div className="bathrooms">
                               <img
                                 src="/assets/svg/header/bathroom.svg"
                                 alt=""
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="500"
                               />
                               <span
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="600"
                               >
                                 5 Bathrooms
                               </span>
                             </div>
-                            <div class="bathrooms">
+                            <div className="bathrooms">
                               <img
                                 src="/assets/svg/header/plot.svg"
                                 alt=""
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="700"
                               />
                               <span
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="800"
                               >
@@ -1624,10 +1628,10 @@ function Header() {
                               </span>
                             </div>
                           </div>
-                          <div class="learn-more">
+                          <div className="learn-more">
                             <a
                               href="3-bedroom-detail.php"
-                              class="common-anchor animate"
+                              className="common-anchor animate"
                               data-animation="fadeInUp"
                               data-duration="900"
                             >
@@ -1638,12 +1642,12 @@ function Header() {
                       </div>
                     </div>
                   </div>
-                  <div class="card">
-                    <div class="card-header" id="headingTwo">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="headingTwo">
+                      <h2 className="mb-0">
                         <button
                           type="button"
-                          class="btn btn-link collapsed"
+                          className="btn btn-link collapsed"
                           data-toggle="collapse"
                           data-target="#collapseTwo"
                         >
@@ -1653,54 +1657,54 @@ function Header() {
                     </div>
                     <div
                       id="collapseTwo"
-                      class="collapse show"
+                      className="collapse show"
                       aria-labelledby="headingTwo"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="menu-card">
+                      <div className="card-body">
+                        <div className="menu-card">
                           <p
-                            class="animate"
+                            className="animate"
                             data-animation="fadeInUp"
                             data-duration="300"
                           >
                             MID UNIT - TYPE D
                           </p>
                           <p
-                            class="animate"
+                            className="animate"
                             data-animation="fadeInUp"
                             data-duration="400"
                           >
                             STARTING FROM OMR 5,674 PER MONTH
                             <span>Built Up Area 2,650 Sq.ft</span>
                           </p>
-                          <div class="mega-footer">
-                            <div class="bathrooms">
+                          <div className="mega-footer">
+                            <div className="bathrooms">
                               <img
                                 src="/assets/svg/header/bathroom.svg"
                                 alt=""
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="500"
                               />
                               <span
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="600"
                               >
                                 5 Bathrooms
                               </span>
                             </div>
-                            <div class="bathrooms">
+                            <div className="bathrooms">
                               <img
                                 src="/assets/svg/header/plot.svg"
                                 alt=""
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="700"
                               />
                               <span
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="800"
                               >
@@ -1708,10 +1712,10 @@ function Header() {
                               </span>
                             </div>
                           </div>
-                          <div class="learn-more">
+                          <div className="learn-more">
                             <a
                               href="3-bedroom-detail.php"
-                              class="common-anchor animate"
+                              className="common-anchor animate"
                               data-animation="fadeInUp"
                               data-duration="900"
                             >
@@ -1722,12 +1726,12 @@ function Header() {
                       </div>
                     </div>
                   </div>
-                  <div class="card">
-                    <div class="card-header" id="headingThree">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="headingThree">
+                      <h2 className="mb-0">
                         <button
                           type="button"
-                          class="btn btn-link collapsed"
+                          className="btn btn-link collapsed"
                           data-toggle="collapse"
                           data-target="#collapseThree"
                         >
@@ -1737,54 +1741,54 @@ function Header() {
                     </div>
                     <div
                       id="collapseThree"
-                      class="collapse"
+                      className="collapse"
                       aria-labelledby="headingThree"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="menu-card">
+                      <div className="card-body">
+                        <div className="menu-card">
                           <p
-                            class="animate"
+                            className="animate"
                             data-animation="fadeInUp"
                             data-duration="300"
                           >
                             MID UNIT - TYPE D
                           </p>
                           <p
-                            class="animate"
+                            className="animate"
                             data-animation="fadeInUp"
                             data-duration="400"
                           >
                             STARTING FROM OMR 5,674 PER MONTH
                             <span>Built Up Area 2,650 Sq.ft</span>
                           </p>
-                          <div class="mega-footer">
-                            <div class="bathrooms">
+                          <div className="mega-footer">
+                            <div className="bathrooms">
                               <img
                                 src="/assets/svg/header/bathroom.svg"
                                 alt=""
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="500"
                               />
                               <span
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="600"
                               >
                                 5 Bathrooms
                               </span>
                             </div>
-                            <div class="bathrooms">
+                            <div className="bathrooms">
                               <img
                                 src="/assets/svg/header/plot.svg"
                                 alt=""
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="700"
                               />
                               <span
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="800"
                               >
@@ -1792,10 +1796,10 @@ function Header() {
                               </span>
                             </div>
                           </div>
-                          <div class="learn-more">
+                          <div className="learn-more">
                             <a
                               href="3-bedroom-detail.php"
-                              class="common-anchor animate"
+                              className="common-anchor animate"
                               data-animation="fadeInUp"
                               data-duration="900"
                             >
@@ -1806,12 +1810,12 @@ function Header() {
                       </div>
                     </div>
                   </div>
-                  <div class="card">
-                    <div class="card-header" id="headingFour">
-                      <h2 class="mb-0">
+                  <div className="card">
+                    <div className="card-header" id="headingFour">
+                      <h2 className="mb-0">
                         <button
                           type="button"
-                          class="btn btn-link collapsed"
+                          className="btn btn-link collapsed"
                           data-toggle="collapse"
                           data-target="#collapseFour"
                         >
@@ -1821,54 +1825,54 @@ function Header() {
                     </div>
                     <div
                       id="collapseFour"
-                      class="collapse"
+                      className="collapse"
                       aria-labelledby="headingFour"
                       data-parent="#accordionExample"
                     >
-                      <div class="card-body">
-                        <div class="menu-card">
+                      <div className="card-body">
+                        <div className="menu-card">
                           <p
-                            class="animate"
+                            className="animate"
                             data-animation="fadeInUp"
                             data-duration="300"
                           >
                             MID UNIT - TYPE D
                           </p>
                           <p
-                            class="animate"
+                            className="animate"
                             data-animation="fadeInUp"
                             data-duration="400"
                           >
                             STARTING FROM OMR 5,674 PER MONTH
                             <span>Built Up Area 2,650 Sq.ft</span>
                           </p>
-                          <div class="mega-footer">
-                            <div class="bathrooms">
+                          <div className="mega-footer">
+                            <div className="bathrooms">
                               <img
                                 src="/assets/svg/header/bathroom.svg"
                                 alt=""
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="500"
                               />
                               <span
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="600"
                               >
                                 5 Bathrooms
                               </span>
                             </div>
-                            <div class="bathrooms">
+                            <div className="bathrooms">
                               <img
                                 src="/assets/svg/header/plot.svg"
                                 alt=""
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="700"
                               />
                               <span
-                                class="animate"
+                                className="animate"
                                 data-animation="fadeInUp"
                                 data-duration="800"
                               >
@@ -1876,10 +1880,10 @@ function Header() {
                               </span>
                             </div>
                           </div>
-                          <div class="learn-more">
+                          <div className="learn-more">
                             <a
                               href="3-bedroom-detail.php"
-                              class="common-anchor animate"
+                              className="common-anchor animate"
                               data-animation="fadeInUp"
                               data-duration="900"
                             >
@@ -1895,39 +1899,39 @@ function Header() {
             </div>
           </div>
         </div>
-        <div class="header__right">
-          <div class="header-right-wrapper">
-            <div class="h-right-segment__btn register-popup-open">
+        <div className="header__right">
+          <div className="header-right-wrapper">
+            <div className="h-right-segment__btn register-popup-open">
               <a href="javascript:;">Register Interest</a>
             </div>
-            <div class="h-right-segment">
+            <div className="h-right-segment">
               {/*
-                    <div class="lang-switcher">
-                        <ul class="lang-list animate" data-animation="fadeInUp" data-duration="300">
-                            <li class="lang-item active">
+                    <div className="lang-switcher">
+                        <ul className="lang-list animate" data-animation="fadeInUp" data-duration="300">
+                            <li className="lang-item active">
                                 <a href="/"> ENG</a>
                             </li>
-                             <li class="lang-item">
+                             <li className="lang-item">
                                 <a href="/ar/"> AR </a>
                             </li>
                         </ul>
                     </div>
                      */}
-              {/* <div class="register-btn animate" data-animation="fadeInUp" data-duration="400">
+              {/* <div className="register-btn animate" data-animation="fadeInUp" data-duration="400">
                         <a href="register.php">
-                            <img src="/assets/svg/header/register-btn.svg" class="svg-convert" alt="">
+                            <img src="/assets/svg/header/register-btn.svg" className="svg-convert" alt="">
                         </a>
                     </div> */}
             </div>
-            {/* <div class="adjust-vol-wrap">
-                    <div class="vol-img animate" data-animation="fadeInUp" data-duration="500">
-                        <img src="/assets/svg/header/volume-icon.svg" class="svg-convert" alt="">
+            {/* <div className="adjust-vol-wrap">
+                    <div className="vol-img animate" data-animation="fadeInUp" data-duration="500">
+                        <img src="/assets/svg/header/volume-icon.svg" className="svg-convert" alt="">
                     </div>
                 </div> */}
           </div>
         </div>
-        <div class="toogle-wrap">
-          <div class="toggle-menu">
+        <div className="toogle-wrap">
+          <div className="toggle-menu">
             <a href="javascript:">
               <span></span>
               <span></span>

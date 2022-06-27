@@ -7,9 +7,10 @@ function Footer() {
       <div className="footer-wrapper">
         <div className="footer-left">
           <div
-            className="footer-logo aniamte"
-            data-animation="fadeInUp"
-            data-duration={100}
+            className="footer-logo"
+            // className="footer-logo animate"
+            // data-animation="fadeInUp"
+            // data-duration={100}
           >
             <img
               src="/ar/assets/svg/logo/tsc-logo-white.svg"

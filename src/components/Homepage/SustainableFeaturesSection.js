@@ -8,11 +8,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Social from "../../assets/images/sustainable-feature/SOCIAL-min.jpeg";
 import Environment from "../../assets/images/sustainable-feature/ENVIRONMENT-min.jpeg";
 import Economic from "../../assets/images/sustainable-feature/ECONOMIC-min.jpeg";
+
 function SustainableFeaturesSection() {
   return (
-    <div className="section sustainable-features-section ">
-      <div className="fp-tableCell">
-      <div className="container flex-center-style">
+    <div className="section sustainable-features-section">
+      <div className="container">
         <div className="twocol-row align-items-center">
           <div className="col-10">
             <Swiper
@@ -204,7 +204,6 @@ function SustainableFeaturesSection() {
           </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }
