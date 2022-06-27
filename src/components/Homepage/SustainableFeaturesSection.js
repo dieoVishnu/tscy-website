@@ -4,7 +4,6 @@ import homeIcon from "../../assets/svg/sustainable-feature/home-icon.svg";
 import recycleIcon from "../../assets/svg/sustainable-feature/recycle-icon.svg";
 import timerHand from "../../assets/svg/sustainable-feature/timer-hand.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "bootstrap/dist/css/bootstrap.min.css"; //added text underline
 
 import Social from "../../assets/images/sustainable-feature/SOCIAL-min.jpeg";
 import Environment from "../../assets/images/sustainable-feature/ENVIRONMENT-min.jpeg";
