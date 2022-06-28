@@ -9,6 +9,13 @@ import { ReactComponent as TimerHand } from "../../assets/svg/sustainable-featur
 function Features() {
 
     const [active, setActive] = useState(1)
+    const [reset, setRest] = useState(true)
+
+
+    const handelClick = (id)=>{
+        setRest(reset => !reset);
+        setActive(id);
+    }
 
 
     if(active > 3 ){
@@ -35,7 +42,11 @@ function Features() {
         }
 
 
-    },[])
+    },[reset])
+
+
+
+    
 
     const data = [
         {
@@ -78,7 +89,7 @@ function Features() {
                     {data.map((e,index)=>(
 
                         <div className={e.id === active ? "swiper-slide-thumb-active feature-navigation__item" : "feature-navigation__item" }>
-                            <div  key={index} className="feature-navigation__image"   >
+                            <div  key={index} className="feature-navigation__image" onClick={event => handelClick(e.id)}  >
                                 {/* <img onClick={evnt =>setActive(e.id)} className="svg-convert .svg" src={e.icons} alt="feature-nav-icon" /> */}
                                 {e.icons}
                             </div>
