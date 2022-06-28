@@ -7,6 +7,7 @@ import LocationSection from "./components/Homepage/LocationSection";
 import Footer from "./components/Footer";
 import SustainableFeaturesSection from "./components/Homepage/SustainableFeaturesSection";
 import Swiper from "swiper";
+import Features from "./components/Homepage/Features.jsx";
 
 const App = () => (
   <ReactFullpage
@@ -53,7 +54,8 @@ const App = () => (
             <Header></Header>
 
             <Banner></Banner>
-            <SustainableFeaturesSection></SustainableFeaturesSection>
+            {/* <SustainableFeaturesSection></SustainableFeaturesSection> */}
+            <Features />
             <MasterplanSection></MasterplanSection>
             <LocationSection></LocationSection>
 
