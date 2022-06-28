@@ -1,5 +1,8 @@
 import React,{useState, useEffect} from 'react'
 import '../style/features.css'
+import { ReactComponent as BrandIcon } from "../../assets/svg/sustainable-feature/home-icon.svg";
+import { ReactComponent as Recycle } from "../../assets/svg/sustainable-feature/recycle-icon.svg";
+import { ReactComponent as TimerHand } from "../../assets/svg/sustainable-feature/timer-hand.svg";
 
 
 
@@ -27,14 +30,18 @@ function Features() {
             // console.log('This will run every second!', active, a);
           }, 5000);
 
-          return () => clearInterval(interval);
+          return () => {
+            clearInterval(interval);
+        }
+
 
     },[])
 
     const data = [
         {
             id:1,
-            icons: "assets/svg/sustainable-feature/home-icon.svg",
+            // icons: "/assets/svg/sustainable-feature/home-icon.svg",
+            icons: <BrandIcon />,
             heading: "Social SUSTAINABIlitY",
             sub: "Through amenities and community outreach programs",
             img: "/assets/images/sustainable-feature/SOCIAL-min.jpeg"
@@ -42,7 +49,8 @@ function Features() {
         },
         {
             id:2,
-            icons: "assets/svg/sustainable-feature/home-icon.svg",
+            // icons: "/assets/svg/sustainable-feature/home-icon.svg",
+            icons: <Recycle />,
             heading: "Environmental SUSTAINABIlitY",
             sub: "Maintained through passive and active design strategies",
             img: "assets/images/sustainable-feature/ENVIRONMENT-min.jpeg"
@@ -50,7 +58,8 @@ function Features() {
         },
         {
             id:3,
-            icons: "assets/svg/sustainable-feature/timer-hand.svg",
+            // icons: "/assets/svg/sustainable-feature/timer-hand.svg",
+            icons: <TimerHand />,
             heading: "Economic SUSTAINABIlitY",
             sub: "Facilitated through operational efficiencies, savings for residents, and contribution to a green economy",
             img: "assets/images/sustainable-feature/ECONOMIC-min.jpeg"
@@ -62,13 +71,20 @@ function Features() {
         <div className='container'>
             <div className='nav-box'>
             </div>
-            <div className="row ml-5">
+            <div className="row ml-5 align-items-center">
                 <div className="col-10">
-                {data.map((e,index)=>(
-                    <div  key={index} className="feature-navigation__image">
-                        <img onClick={evnt =>setActive(e.id)} className="svg-convert" src={e.icons} alt="feature-nav-icon" />
-                    </div>
-                ))}
+                    <div className='feature-navigation'>
+
+                    {data.map((e,index)=>(
+
+                        <div className={e.id === active ? "swiper-slide-thumb-active feature-navigation__item" : "feature-navigation__item" }>
+                            <div  key={index} className="feature-navigation__image"   >
+                                {/* <img onClick={evnt =>setActive(e.id)} className="svg-convert .svg" src={e.icons} alt="feature-nav-icon" /> */}
+                                {e.icons}
+                            </div>
+                        </div>
+                    ))}
+                </div>
                 </div>
                 <div className="col-90">
                 {data.map((e,index)=>(
