@@ -38,19 +38,20 @@ function Header() {
                   <div className="inner-megamenu">
                     <div className="menu-list">
                       <div
-                        className="menu-card animate"
+                        // className="menu-card animate"
+                        className="menu-card"
                         data-animation="zoomIn"
                         data-duration="400"
                       >
                         <p
-                          className="animate"
+                          // className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           Courtyard Villa
                         </p>
                         <p
-                          className="animate"
+                          // className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
@@ -62,12 +63,12 @@ function Header() {
                             <img
                               src="/assets/svg/unit-feature/bedroom.svg"
                               alt=""
-                              className="animate"
+                              // className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              className="animate"
+                              // className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
@@ -78,12 +79,12 @@ function Header() {
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              className="animate"
+                              // className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              className="animate"
+                              // className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -94,7 +95,8 @@ function Header() {
                         <div className="learn-more">
                           <a
                             href="/3-bedroom-detail.php"
-                            className="common-anchor animate"
+                            // className="common-anchor animate"
+                            className="common-anchor"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -103,19 +105,20 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        className="menu-card animate"
+                        // className="menu-card animate"
+                        className="menu-card"
                         data-animation="zoomIn"
                         data-duration="600"
                       >
                         <p
-                          className="animate"
+                          // className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           Courtyard Villa
                         </p>
                         <p
-                          className="animate"
+                          // className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
@@ -127,12 +130,12 @@ function Header() {
                             <img
                               src="/assets/svg/unit-feature/bedroom.svg"
                               alt=""
-                              className="animate"
+                              // className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              className="animate"
+                              // className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
@@ -143,12 +146,12 @@ function Header() {
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              className="animate"
+                              // className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              className="animate"
+                              // className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -159,7 +162,8 @@ function Header() {
                         <div className="learn-more">
                           <a
                             href="/4-bedroom-courtyard-villa-detail.php"
-                            className="common-anchor animate"
+                            // className="common-anchor animate"
+                            className="common-anchor"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
@@ -168,19 +172,20 @@ function Header() {
                         </div>
                       </div>
                       <div
-                        className="menu-card animate"
+                        // className="menu-card animate"
+                        className="menu-card"
                         data-animation="zoomIn"
                         data-duration="800"
                       >
                         <p
-                          className="animate"
+                          // className="animate"
                           data-animation="fadeInUp"
                           data-duration="300"
                         >
                           Garden Villa
                         </p>
                         <p
-                          className="animate"
+                          // className="animate"
                           data-animation="fadeInUp"
                           data-duration="400"
                         >
@@ -192,12 +197,12 @@ function Header() {
                             <img
                               src="/assets/svg/unit-feature/bedroom.svg"
                               alt=""
-                              className="animate"
+                              // className="animate"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              className="animate"
+                              // className="animate"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
@@ -208,12 +213,12 @@ function Header() {
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              className="animate"
+                              // className="animate"
                               data-animation="fadeInUp"
                               data-duration="700"
                             />
                             <span
-                              className="animate"
+                              // className="animate"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -224,7 +229,8 @@ function Header() {
                         <div className="learn-more">
                           <a
                             href="/4-bedroom-garden-villa-detail.php"
-                            className="common-anchor animate"
+                            className="common-anchor"
+                            // className="common-anchor animate"
                             data-animation="fadeInUp"
                             data-duration="900"
                           >
