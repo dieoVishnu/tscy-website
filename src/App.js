@@ -17,14 +17,14 @@ const App = () => (
       "The Sustainable City Yiti",
       "Sustainable Features",
       "Master Plan",
-      "Newsroom",
+      // "Newsroom",
       "Location",
     ]}
     anchors={[
       "TheSustainableCityYiti",
       "SustainableFeatures",
       "MasterPlan",
-      "Newsroom",
+      // "Newsroom",
       "Location",
     ]}
     showActiveTooltip={true}
