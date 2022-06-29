@@ -1,16 +1,21 @@
-import Header from "./components/Header.js";
-import Banner from "./components/Homepage/BannerSection.js";
+import Header from "../components/Header.js";
+import Banner from "../components/Homepage/BannerSection.js";
 
 import ReactFullpage from "@fullpage/react-fullpage";
-import MasterplanSection from "./components/Homepage/MasterplanSection";
-import LocationSection from "./components/Homepage/LocationSection";
-import Footer from "./components/Footer";
-import SustainableFeaturesSection from "./components/Homepage/SustainableFeaturesSection";
+import MasterplanSection from "../components/Homepage/MasterplanSection";
+import LocationSection from "../components/Homepage/LocationSection";
+import Footer from "../components/Footer";
+import SustainableFeaturesSection from "../components/Homepage/SustainableFeaturesSection";
 import Swiper from "swiper";
-import Features from "./components/Homepage/Features.js";
-import "./index.css";
+import Features from "../components/Homepage/Features.js";
+import "../index.css";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
-const App = () => (
+const Main = () => (
 
   <ReactFullpage
     autoScrolling={true}
@@ -70,4 +75,4 @@ const App = () => (
   />
 );
 
-export default App;
+export default Main;
