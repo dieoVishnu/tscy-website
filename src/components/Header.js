@@ -1,23 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import "../index.css";
 import logo from "../assets/svg/logo/tsc-logo.svg";
 import logow from "../assets/svg/logo/tsc-logo-white.svg";
 
 function Header() {
+  const [isActive, setActive] = useState("false");
+
+  const toggleClass = () => {
+    setActive(!isActive);
+  };
+
   return (
     <header
       id="header"
-      className="header"
-      data-animation="fadeInUp"
-      data-duration="100"
+      className={
+        isActive
+          ? "header animate__animated animate__fadeInUp header-light"
+          : "header animate__animated animate__fadeInUp dark-light"
+      }
+      // data-animation="fadeInUp"
+      // data-duration="100"
     >
       <div className="header__wrapper">
         <div className="header__left">
           <a href="/">
             <div
-              className="brand-logo "
-              data-animation="fadeInUp"
-              data-duration="100"
+              className="brand-logo animate__animated animate__fadeInUp"
+              // data-animation="fadeInUp"
+              // data-duration="100"
             >
               <img src={logo} alt="brand-logo" id="brand-logo" />
               <img src={logow} alt="brand-logo" id="w-brand-logo" />
@@ -28,7 +38,11 @@ function Header() {
           <div className="header__middle">
             <div className="header__lists">
               <ul className="h-service-list appartment-list">
-                <li className="h-service-item appartment-item haschildren hasMenu">
+                <li
+                  className="h-service-item appartment-item haschildren hasMenu"
+                  onMouseEnter={toggleClass}
+                  onMouseLeave={toggleClass}
+                >
                   <a
                     href="/#MasterPlan"
                     className="h-service-cta appartment-cta"
@@ -39,21 +53,21 @@ function Header() {
                     <div className="menu-list">
                       <div
                         // className="menu-card animate"
-                        className="menu-card"
-                        data-animation="zoomIn"
-                        data-duration="400"
+                        className="menu-card animate__animated animate__zoomIn"
+                        // data-animation="zoomIn"
+                        // data-duration="400"
                       >
                         <p
-                          // className="animate"
-                          data-animation="fadeInUp"
-                          data-duration="300"
+                          className="animate__animated animate__fadeInUp"
+                          // data-animation="fadeInUp"
+                          // data-duration="300"
                         >
                           Courtyard Villa
                         </p>
                         <p
-                          // className="animate"
-                          data-animation="fadeInUp"
-                          data-duration="400"
+                          className="animate__animated animate__fadeInUp"
+                          // data-animation="fadeInUp"
+                          // data-duration="400"
                         >
                           3 Bedroom Unit
                           <span>West Villas</span>

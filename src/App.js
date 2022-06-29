@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import SustainableFeaturesSection from "./components/Homepage/SustainableFeaturesSection";
 import Swiper from "swiper";
 import Features from "./components/Homepage/Features.jsx";
+import "./index.css";
 
 const App = () => (
   <ReactFullpage
