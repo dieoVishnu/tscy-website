@@ -10448,3 +10448,7 @@ code {
   transform: translate(-50%);
   left: 1rem !important;
 }
+
+.display-none{
+  display: none !important;
+}

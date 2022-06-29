@@ -1,9 +1,10 @@
 import React from "react";
 import "../index.css";
 
+
 function Footer() {
   return (
-    <footer className="footer fp-auto-height fp-section fp-table" id="footer">
+    <footer className="footer section fp-auto-height fp-section fp-table" id="footer">
       <div className="footer-wrapper">
         <div className="footer-left">
           <div
@@ -13,7 +14,7 @@ function Footer() {
             // data-duration={100}
           >
             <img
-              src="/ar/assets/svg/logo/tsc-logo-white.svg"
+              src="/assets/svg/logo/tsc-logo-white.svg"
               alt="footer-logo"
             />
           </div>
@@ -24,7 +25,7 @@ function Footer() {
                 <a href="bedroom2.php" class="footer-link">Buy Now</a>
             </li> */}
             <li
-              className="footer-item animate"
+              className="footer-item "
               data-animation="fadeInUp"
               data-duration={200}
             >
@@ -33,7 +34,7 @@ function Footer() {
               </a>
             </li>
             <li
-              className="footer-item animate"
+              className="footer-item "
               data-animation="fadeInUp"
               data-duration={300}
             >
@@ -45,7 +46,7 @@ function Footer() {
                 <a href="/ar/" class="footer-link">Project Updates</a>
             </li> */}
             <li
-              className="footer-item animate"
+              className="footer-item "
               data-animation="fadeInUp"
               data-duration={500}
             >
@@ -54,7 +55,7 @@ function Footer() {
               </a>
             </li>
             <li
-              className="footer-item animate"
+              className="footer-item "
               data-animation="fadeInUp"
               data-duration={600}
             >
@@ -63,7 +64,7 @@ function Footer() {
               </a>
             </li>
             <li
-              className="footer-item animate"
+              className="footer-item "
               data-animation="fadeInUp"
               data-duration={700}
             >
@@ -72,7 +73,7 @@ function Footer() {
               </a>
             </li>
             <li
-              className="footer-item animate"
+              className="footer-item "
               data-animation="fadeInUp"
               data-duration={800}
             >
@@ -85,7 +86,7 @@ function Footer() {
         <div className="footer-right">
           <div className="newsletter-sec">
             <div
-              className="newsletter__head animate"
+              className="newsletter__head "
               data-animation="fadeInUp"
               data-duration={800}
             >
@@ -95,7 +96,7 @@ function Footer() {
               </h4>
             </div>
             <div
-              className="newsletter__form animate"
+              className="newsletter__form "
               data-animation="fadeInUp"
               data-duration={900}
             >
@@ -113,62 +114,73 @@ function Footer() {
               </form>
             </div>
           </div>
+
           <div className="footer-social">
-            <ul className="social-icon white--social">
-              <li
-                className="social-item animate"
-                data-animation="fadeInUp"
-                data-duration={100}
-              >
-                <a href="https://twitter.com/?lang=en" target="_blank">
-                  <div className="icon-img">
-                    <img
-                      className="svg-convert"
-                      src="/ar/assets/svg/social-icons/twitter.svg"
-                      alt="footer-social-img"
-                    />
-                  </div>
-                </a>
-              </li>
-              <li
-                className="social-item animate"
-                data-animation="fadeInUp"
-                data-duration={200}
-              >
-                <a href="https://www.facebook.com/" target="_blank">
-                  <div className="icon-img">
-                    <img
-                      className="svg-convert"
-                      src="/ar/assets/svg/social-icons/facebook.svg"
-                      alt="footer-social-img"
-                    />
-                  </div>
-                </a>
-              </li>
-              <li
-                className="social-item animate"
-                data-animation="fadeInUp"
-                data-duration={300}
-              >
-                <a href="https://www.instagram.com/" target="_blank">
-                  <div className="icon-img">
-                    <img
-                      className="svg-convert"
-                      src="/ar/assets/svg/social-icons/instagram.svg"
-                      alt="footer-social-img"
-                    />
-                  </div>
-                </a>
-              </li>
-              {/* <li class="social-item animate" data-animation="fadeInUp" data-duration="400">
-                    <a href="https://www.youtube.com/" target="_blank">
-                        <div class="icon-img">
-                            <img class="svg-convert" src="/ar/assets/svg/social-icons/youtube.svg" alt="footer-social-img">
-                        </div>
-                    </a>
-                </li> */}
-            </ul>
-          </div>
+  <ul className="social-icon white--social">
+    <li
+      className="social-item"
+      data-animation="fadeInUp"
+      data-duration={100}
+    >
+      <a
+        href="https://twitter.com/TSCYiti?s=20&t=YSRqGJh4w6nxJuNR23i_rw"
+        target="_blank"
+      >
+        <div className="icon-img">
+          <img
+            className="svg-convert"
+            src="/assets/svg/social-icons/twitter.svg"
+            alt="footer-social-img"
+          />
+        </div>
+      </a>
+    </li>
+    <li
+      className="social-item"
+      data-animation="fadeInUp"
+      data-duration={200}
+    >
+      <a
+        href="https://www.facebook.com/ThesustainablecityYiti?ref=py_c"
+        target="_blank"
+      >
+        <div className="icon-img icon-img1">
+          <img
+            className="svg-convert"
+            src="/assets/svg/social-icons/facebook.svg"
+            alt="footer-social-img"
+          />
+        </div>
+      </a>
+    </li>
+    <li
+      className="social-item "
+      data-animation="fadeInUp"
+      data-duration={300}
+    >
+      <a
+        href="https://www.instagram.com/thesustainablecity_yiti"
+        target="_blank"
+      >
+        <div className="icon-img">
+          <img
+            className="svg-convert"
+            src="/assets/svg/social-icons/icons8-instagram.svg"
+            alt="footer-social-img"
+          />
+        </div>
+      </a>
+    </li>
+    {/* <li class="social-item animate" data-animation="fadeInUp" data-duration="400">
+                  <a href="https://www.youtube.com/" target="_blank">
+                      <div class="icon-img">
+                          <img class="svg-convert" src="/assets/svg/social-icons/youtube.svg" alt="footer-social-img">
+                      </div>
+                  </a>
+              </li> */}
+  </ul>
+</div>
+
         </div>
       </div>
     </footer>

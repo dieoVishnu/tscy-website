@@ -7,10 +7,11 @@ import LocationSection from "./components/Homepage/LocationSection";
 import Footer from "./components/Footer";
 import SustainableFeaturesSection from "./components/Homepage/SustainableFeaturesSection";
 import Swiper from "swiper";
-import Features from "./components/Homepage/Features.jsx";
+import Features from "./components/Homepage/Features.js";
 import "./index.css";
 
 const App = () => (
+
   <ReactFullpage
     autoScrolling={true}
     navigation={true}
@@ -27,6 +28,7 @@ const App = () => (
       "MasterPlan",
       // "Newsroom",
       "Location",
+      ""
     ]}
     showActiveTooltip={true}
     scrollingSpeed={1000}
@@ -57,11 +59,11 @@ const App = () => (
             <Banner></Banner>
             {/* <SustainableFeaturesSection></SustainableFeaturesSection> */}
             <Features />
-            <MasterplanSection></MasterplanSection>
+            <MasterplanSection state={state}/>
             <LocationSection></LocationSection>
-
-            <Footer></Footer>
+            
           </ReactFullpage.Wrapper>
+          <Footer />
         </>
       );
     }}
