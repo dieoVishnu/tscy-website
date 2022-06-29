@@ -9,15 +9,18 @@ import { ReactComponent as TimerHand } from "../../assets/svg/sustainable-featur
 function Features() {
 
     const [active, setActive] = useState(1)
+    // reset the setintrevell function 
     const [reset, setRest] = useState(true)
 
 
+    // onclick icon set changes
     const handelClick = (id)=>{
         setRest(reset => !reset);
         setActive(id);
     }
 
 
+    // check the active state
     if(active > 3 ){
         setActive(1)
     }
@@ -79,17 +82,17 @@ function Features() {
     ]
   return (
     <div className='section myfeatures sustainable-features-section'>
-        <div className='container'>
+        <div className='container featur-margin'>
             <div className='nav-box'>
             </div>
-            <div className="row ml-5 align-items-center">
+            <div className="row align-items-center">
                 <div className="col-10">
-                    <div className='feature-navigation'>
+                    <div className='feature-navigation swiper-wrapper1'>
 
                     {data.map((e,index)=>(
 
-                        <div className={e.id === active ? "swiper-slide-thumb-active feature-navigation__item" : "feature-navigation__item" }>
-                            <div  key={index} className="feature-navigation__image" onClick={event => handelClick(e.id)}  >
+                        <div className={e.id === active ? "swiper-slide-thumb-active feature-navigation__item item-width" : "feature-navigation__item item-width" }>
+                            <div  key={index} className="feature-navigation__image m-0" onClick={event => handelClick(e.id)}  >
                                 {/* <img onClick={evnt =>setActive(e.id)} className="svg-convert .svg" src={e.icons} alt="feature-nav-icon" /> */}
                                 {e.icons}
                             </div>
@@ -102,8 +105,8 @@ function Features() {
 <>
 
                     
-        {e.id === active ? (
-                    <div className="feature-box" key={index}>
+        {/* {e.id === active ? ( */}
+                    <div className={e.id === active ? "feature-box active-display" : "feature-box display-none"} key={index}>
               <div className="swiper feature-wrap-content">
                 <div className="swiper-wrapper">
                   <div className="swiper-slide">
@@ -130,7 +133,7 @@ function Features() {
                           <div className="swiper feature-img-wrapper">
                             <div className="swiper-wrapper">
                               <div className="feature-small-img swiper-slide">
-                                <img src={e.img} alt="feature0-small-img " />
+                                <img src={e.img} className="feature-img-anim" alt="feature0-small-img " />
                               </div>
                             </div>
                             {/* <div className="swiper-pagination"></div> */}
@@ -144,7 +147,7 @@ function Features() {
               </div>
             </div>
 
-              ): (<></>)}
+            {/* //   ): (<></>)} */}
 
 </>
 ))}
