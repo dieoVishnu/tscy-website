@@ -12,11 +12,9 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Main />}>
-        <Route path="about-us" element={<About />} />
+        <Route path="/" exact element={<Main />} />
         <Route path="contact-us" element={<Contact />} />
-
-      </Route>
+        <Route path="aboutus" element={<About />} />
     </Routes>
   </BrowserRouter>
   )
