@@ -10376,8 +10376,38 @@ code {
 }
 
 
+/* feature section */
+
 .myfeatures .col-90{
   height: 400px;
+}
+
+.myfeatures .col-90 .display-none{
+  display: none !important;
+}
+.myfeatures .col-90 .active-display .feature-img-anim{
+  /* transition: all 10s ease-in; */
+  animation-name: animate__fadeOut;
+  animation-delay: 400ms;
+  animation-duration: 2.2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+/* keyframes : */
+@keyframes animate__fadeOut {
+  0% {
+    /* width: 0px; */
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.myfeatures .feature-small-img{
+  transition: opacity 2s ease-in-out;
+  /* transition: all 2s ease-in-out; */
 }
 
 @media (min-width: 765px) and (max-width: 1199px) {

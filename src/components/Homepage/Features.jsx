@@ -105,8 +105,8 @@ function Features() {
 <>
 
                     
-        {e.id === active ? (
-                    <div className="feature-box" key={index}>
+        {/* {e.id === active ? ( */}
+                    <div className={e.id === active ? "feature-box active-display" : "feature-box display-none"} key={index}>
               <div className="swiper feature-wrap-content">
                 <div className="swiper-wrapper">
                   <div className="swiper-slide">
@@ -133,7 +133,7 @@ function Features() {
                           <div className="swiper feature-img-wrapper">
                             <div className="swiper-wrapper">
                               <div className="feature-small-img swiper-slide">
-                                <img src={e.img} alt="feature0-small-img " />
+                                <img src={e.img} className="feature-img-anim" alt="feature0-small-img " />
                               </div>
                             </div>
                             {/* <div className="swiper-pagination"></div> */}
@@ -147,7 +147,7 @@ function Features() {
               </div>
             </div>
 
-              ): (<></>)}
+            {/* //   ): (<></>)} */}
 
 </>
 ))}
