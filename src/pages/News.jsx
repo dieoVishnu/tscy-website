@@ -37,7 +37,7 @@ function News() {
       >
         <div className="twocol-row newsroom-slider-wrapper">
           <div className="col-25">
-            <a href="news-detail.php">
+            <a href="newsroom/newsdetails">
               <div className="news-wrapper">
                 <div
                   className="newsroom-card animate__animated animate__fadeInUp"

@@ -11,6 +11,7 @@ import Career from './pages/Career';
 import BrokerSimple from './pages/BrokerSimple';
 import News from './pages/News';
 import AboutTest from './pages/AboutTest';
+import NewsDetails from './components/Detailpage/NewsDetails';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="careers" element={<Career />} />
         <Route path="register" element={<BrokerSimple />} />
         <Route path="newsroom" element={<News />} />
+        <Route path='newsroom/newsdetails' element={<NewsDetails />} />
     </Routes>
   </BrowserRouter>
   )

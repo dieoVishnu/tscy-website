@@ -10491,3 +10491,18 @@ code {
   height: 100%;
 }
 }
+
+
+/* new details */
+
+.news-details-test .news-detail .news-content{
+  overflow: scroll !important;
+  /* height: 100%; */
+}
+.news-details-test .news-detail .news-content .scroll-content{
+  overflow: scroll !important;
+  width: 100%;
+  height: 30rem;
+  position: relative;
+  z-index: 10;
+}

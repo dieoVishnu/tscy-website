@@ -29,7 +29,7 @@ function Footer() {
               data-animation="fadeInUp"
               data-duration={200}
             >
-              <a href="newsroom" className="footer-link">
+              <a href="/newsroom" className="footer-link">
                 Newsroom
               </a>
             </li>
@@ -38,7 +38,7 @@ function Footer() {
               data-animation="fadeInUp"
               data-duration={300}
             >
-              <a href="careers" className="footer-link">
+              <a href="/careers" className="footer-link">
                 Careers
               </a>
             </li>
