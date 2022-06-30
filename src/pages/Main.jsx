@@ -8,7 +8,10 @@ import LocationSection from "../components/Homepage/LocationSection";
 import Footer from "../components/Footer";
 import Features from "../components/Homepage/Features.js";
 
+
 const Main = () => (
+
+
 
   <ReactFullpage
     autoScrolling={true}

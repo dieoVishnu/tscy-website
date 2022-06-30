@@ -10506,3 +10506,7 @@ code {
   position: relative;
   z-index: 10;
 }
+
+.fp-watermark{
+  display: none;
+}
