@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "../../index.css";
 
-function MasterplanSection(props) {
-  const data = props.state
+function MasterplanSection() {
   // console.log(data)
 
-  const [active, setActive] = useState(true)
 
 
   // useEffect(()=>{
