@@ -50,7 +50,7 @@ function Footer() {
               data-animation="fadeInUp"
               data-duration={500}
             >
-              <a href="about-us.php" className="footer-link">
+              <a href="/aboutus" className="footer-link">
                 About Us
               </a>
             </li>

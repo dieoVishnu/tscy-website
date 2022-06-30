@@ -7198,7 +7198,7 @@ button:focus {
 }
 @media (max-width: 767px) {
   .about-us-section .about-img-sec {
-    flex: inherit;
+    /* flex: inherit; */
     height: 50vh;
     width: 100%;
   }
