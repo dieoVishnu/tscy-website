@@ -21,7 +21,7 @@ function About() {
       <div className="about-txt-sec bg-darkblue">
         <div className="about-us-wrapper colored-wrapper">
           <div
-            className="about-us-head "
+            className="about-us-head animate__animated animate__fadeInUp"
             data-animation="fadeInUp"
             data-duration={200}
           >
@@ -30,7 +30,7 @@ function About() {
             <h3>OUR STORY</h3>
           </div>
           <div
-            className="about-us-text scroll-content"
+            className="about-us-text scroll-content animate__animated animate__fadeInUp"
             data-animation="fadeInUp"
             data-duration={500}
           >
@@ -64,7 +64,7 @@ function About() {
                       <p>The momentous mixed-use project pursues the goal of creating another world-class, sustainable, and happy community in the Middle East and North Africa. We have cultivated an exceptional and sustainable society that provides the highest standards of living without harming the Earth’s resources.</p> */}
           </div>
           <div
-            className="about-us-text-footer"
+            className="about-us-text-footer animate__animated animate__fadeInUp"
             data-animation="fadeInUp"
             data-duration={600}
           >

@@ -5,14 +5,30 @@ import logow from "../assets/svg/logo/tsc-logo-white.svg";
 
 function Header() {
   const [isActive, setActive] = useState("false");
+  const [isMenuActive, setMenuActive] = useState("false");
 
   const toggleClass = () => {
     setActive(!isActive);
   };
 
+  const toggleMenuClass = () => {
+    setMenuActive(!isMenuActive);
+    if (document.body.classList.contains("open-menu")) {
+      document.body.classList.remove("open-menu");
+    } else {
+      document.body.classList.add("open-menu");
+    }
+  };
+
   return (
     <header
       id="header"
+      style={{ animationDuration: "1000ms" }}
+      // className={`${
+      //   isActive
+      //     ? "header animate__animated animate__fadeInUp header-light"
+      //     : "header animate__animated animate__fadeInUp dark-light"
+      // } ${isMenuActive ? "" : "open-menu"}`}
       className={
         isActive
           ? "header animate__animated animate__fadeInUp header-light"
@@ -25,7 +41,9 @@ function Header() {
         <div className="header__left">
           <a href="/">
             <div
+              style={{ animationDuration: "100ms" }}
               className="brand-logo animate__animated animate__fadeInUp"
+
               // data-animation="fadeInUp"
               // data-duration="100"
             >
@@ -77,12 +95,12 @@ function Header() {
                             <img
                               src="/assets/svg/unit-feature/bedroom.svg"
                               alt=""
-                              // className="animate"
+                              className="animate__animated animate__fadeInUp"
                               data-animation="fadeInUp"
                               data-duration="500"
                             />
                             <span
-                              // className="animate"
+                              className="animate__animated animate__fadeInUp"
                               data-animation="fadeInUp"
                               data-duration="600"
                             >
@@ -93,12 +111,12 @@ function Header() {
                             <img
                               src="/assets/svg/header/plot.svg"
                               alt=""
-                              // className="animate"
-                              data-animation="fadeInUp"
-                              data-duration="700"
+                              className="animate__animated animate__fadeInU"
+                              // data-animation="fadeInUp"
+                              // data-duration="700"
                             />
                             <span
-                              // className="animate"
+                              className="animate__animated animate__fadeInU"
                               data-animation="fadeInUp"
                               data-duration="800"
                             >
@@ -1951,7 +1969,11 @@ function Header() {
           </div>
         </div>
         <div className="toogle-wrap">
-          <div className="toggle-menu">
+          <div
+            className={isMenuActive ? "toggle-menu" : "toggle-menu open"}
+            // className="toggle-menu"
+            onClick={toggleMenuClass}
+          >
             <a href="javascript:">
               <span></span>
               <span></span>
