@@ -5,7 +5,6 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import MasterplanSection from "../components/Homepage/MasterplanSection";
 import LocationSection from "../components/Homepage/LocationSection";
 import Footer from "../components/Footer";
-import SustainableFeaturesSection from "../components/Homepage/SustainableFeaturesSection";
 
 import "../index.css";
 
