@@ -12,6 +12,7 @@ import "../index.css";
 // import Swiper from "swiper";
 import Features from "../components/Homepage/Features.js";
 import "../index.css";
+import NewsroomSection from "../components/Homepage/NewsroomSection.js";
 // import {
 //   BrowserRouter,
 //   Routes,
@@ -68,6 +69,7 @@ const Main = () => (
             {/* <SustainableFeaturesSection></SustainableFeaturesSection> */}
             <Features />
             <MasterplanSection state={state}/>
+            {/* <NewsroomSection /> */}
             <LocationSection></LocationSection>
             
           </ReactFullpage.Wrapper>
