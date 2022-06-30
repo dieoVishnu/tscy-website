@@ -1,5 +1,8 @@
 import React from "react";
 import "../index.css";
+import { ReactComponent as Twiter } from "../assets/svg/social-icons/twitter.svg";
+import { ReactComponent as Facebook } from "../assets/svg/social-icons/facebook.svg";
+import { ReactComponent as Instagram } from "../assets/svg/social-icons/icons8-instagram.svg";
 
 
 function Footer() {
@@ -127,11 +130,12 @@ function Footer() {
         target="_blank"
       >
         <div className="icon-img">
-          <img
+          {/* <img
             className="svg-convert"
             src="/assets/svg/social-icons/twitter.svg"
             alt="footer-social-img"
-          />
+          /> */}
+          <Twiter />
         </div>
       </a>
     </li>
@@ -145,11 +149,12 @@ function Footer() {
         target="_blank"
       >
         <div className="icon-img icon-img1">
-          <img
+          {/* <img
             className="svg-convert"
             src="/assets/svg/social-icons/facebook.svg"
             alt="footer-social-img"
-          />
+          /> */}
+          <Facebook />
         </div>
       </a>
     </li>
@@ -163,11 +168,12 @@ function Footer() {
         target="_blank"
       >
         <div className="icon-img">
-          <img
+          {/* <img
             className="svg-convert"
             src="/assets/svg/social-icons/icons8-instagram.svg"
             alt="footer-social-img"
-          />
+          /> */}
+          <Instagram />
         </div>
       </a>
     </li>
