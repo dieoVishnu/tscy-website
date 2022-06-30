@@ -10162,7 +10162,7 @@ a {
 }
 .master-plan-card {
   position: absolute;
-  top: 50%;
+  top: 10%;
   z-index: 999;
   background: #fff;
   width: 23em;
