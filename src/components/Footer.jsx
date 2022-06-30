@@ -38,7 +38,7 @@ function Footer() {
               data-animation="fadeInUp"
               data-duration={300}
             >
-              <a href="career.php" className="footer-link">
+              <a href="careers" className="footer-link">
                 Careers
               </a>
             </li>
