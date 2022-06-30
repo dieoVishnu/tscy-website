@@ -8,6 +8,8 @@ import {
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Career from './pages/Career';
+import BrokerRegistration from './pages/BrokerRegistration';
+import BrokerSimple from './pages/BrokerSimple';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route path="contact-us" element={<Contact />} />
         <Route path="aboutus" element={<About />} />
         <Route path="careers" element={<Career />} />
+        <Route path="register" element={<BrokerSimple />} />
     </Routes>
   </BrowserRouter>
   )
