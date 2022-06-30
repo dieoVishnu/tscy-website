@@ -10466,3 +10466,28 @@ code {
     height: 100%;
   }
 }
+
+
+.career-test{
+  /* height: 100vh; */
+  /* overflow-x: hidden; */
+}
+
+.career-test .career-section{
+  height: 100vh;
+}
+
+
+@media (max-width: 922px) {
+  .career-test .career-section{
+    height: 100%;
+  }
+.career-section .col-65 {
+    width: 100%;
+    height: 100%;
+}
+
+.career-section .col-65 .career-content .career-text-box{
+  height: 100%;
+}
+}
