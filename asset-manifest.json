@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/tscy-website/static/css/main.1efbf9c7.css",
+    "main.js": "/tscy-website/static/js/main.f74b8ad9.js",
+    "static/media/ocean-map-layer.png": "/tscy-website/static/media/ocean-map-layer.38d1dd8d2b0c5c18d1c9.png",
+    "static/media/banner-img-2.png": "/tscy-website/static/media/banner-img-2.a2799cc82ee17262c09b.png",
+    "static/media/banner-img-3.png": "/tscy-website/static/media/banner-img-3.ba72edd3f5cba8689639.png",
+    "static/media/banner-img-1.png": "/tscy-website/static/media/banner-img-1.6fc259651ec82162de88.png",
+    "static/media/loader.gif": "/tscy-website/static/media/loader.337e7c3e5b159b4273b8.gif",
+    "static/media/tsc-logo.svg": "/tscy-website/static/media/tsc-logo.79d6ad578ea835e372ec1cb354c3d440.svg",
+    "static/media/tsc-logo-white.svg": "/tscy-website/static/media/tsc-logo-white.d6e55a85189ec0f3c322956e84117b22.svg",
+    "static/media/timer-hand.svg": "/tscy-website/static/media/timer-hand.78e8d16bc10738688dc4695a681a0bb2.svg",
+    "index.html": "/tscy-website/index.html",
+    "static/media/recycle-icon.svg": "/tscy-website/static/media/recycle-icon.c227a48ba5e2ff57686415f34ca3791e.svg",
+    "static/media/home-icon.svg": "/tscy-website/static/media/home-icon.7db81b67ce31b98611e04c15d66a3642.svg",
+    "static/media/arrow_white.svg": "/tscy-website/static/media/arrow_white.7ad498bd161cd7619aae.svg",
+    "static/media/twitter.svg": "/tscy-website/static/media/twitter.66c112aebe4abaff2926e85549fb5bc2.svg",
+    "static/media/arrow_contactus.svg": "/tscy-website/static/media/arrow_contactus.066baf72a002d3f1cf1d.svg",
+    "static/media/icons8-instagram.svg": "/tscy-website/static/media/icons8-instagram.fcf217d2fb087d563fb62a613bdc5d0b.svg",
+    "static/media/facebook.svg": "/tscy-website/static/media/facebook.abf94d64445039dac7457a190d1e8d69.svg",
+    "main.1efbf9c7.css.map": "/tscy-website/static/css/main.1efbf9c7.css.map",
+    "main.f74b8ad9.js.map": "/tscy-website/static/js/main.f74b8ad9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1efbf9c7.css",
+    "static/js/main.f74b8ad9.js"
+  ]
+}
