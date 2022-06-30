@@ -29,7 +29,7 @@ function Footer() {
               data-animation="fadeInUp"
               data-duration={200}
             >
-              <a href="news.php" className="footer-link">
+              <a href="newsroom" className="footer-link">
                 Newsroom
               </a>
             </li>
@@ -63,7 +63,7 @@ function Footer() {
                 Contact Us
               </a>
             </li>
-            <li
+            {/* <li
               className="footer-item "
               data-animation="fadeInUp"
               data-duration={700}
@@ -71,7 +71,7 @@ function Footer() {
               <a href="/ar/" className="footer-link">
                 FAQs
               </a>
-            </li>
+            </li> */}
             <li
               className="footer-item "
               data-animation="fadeInUp"

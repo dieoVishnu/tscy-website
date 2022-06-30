@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import Career from './pages/Career';
 import BrokerRegistration from './pages/BrokerRegistration';
 import BrokerSimple from './pages/BrokerSimple';
+import News from './pages/News';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="aboutus" element={<About />} />
         <Route path="careers" element={<Career />} />
         <Route path="register" element={<BrokerSimple />} />
+        <Route path="newsroom" element={<News />} />
     </Routes>
   </BrowserRouter>
   )
