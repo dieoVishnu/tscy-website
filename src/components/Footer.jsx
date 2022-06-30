@@ -59,7 +59,7 @@ function Footer() {
               data-animation="fadeInUp"
               data-duration={600}
             >
-              <a href="contact-us.php" className="footer-link">
+              <a href="contact-us" className="footer-link">
                 Contact Us
               </a>
             </li>
