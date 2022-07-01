@@ -6,6 +6,7 @@ import logow from "../assets/svg/logo/tsc-logo-white.svg";
 function Header() {
   const [isActive, setActive] = useState("false");
   const [isMenuActive, setMenuActive] = useState("false");
+  const [isPopupActive, setPopupActive] = useState("false");
 
   // document.body.classList.add("popup-open");
 
@@ -13,13 +14,22 @@ function Header() {
     setActive(!isActive);
   };
 
+  // const toggleMenuClass = () => {
+  //   setMenuActive(!isMenuActive);
+  //   if (document.body.classList.contains("open-menu")) {
+  //     document.body.classList.remove("open-menu");
+  //   } else {
+  //     document.body.classList.add("open-menu");
+  //   }
+  // };
   const toggleMenuClass = () => {
     setMenuActive(!isMenuActive);
-    if (document.body.classList.contains("open-menu")) {
-      document.body.classList.remove("open-menu");
-    } else {
-      document.body.classList.add("open-menu");
-    }
+    document.querySelector("body").classList.toggle("open-menu");
+  };
+
+  const togglePopup = () => {
+    setPopupActive(!isPopupActive);
+    document.querySelector("body").classList.toggle("popup-open");
   };
 
   return (
@@ -1942,7 +1952,7 @@ function Header() {
         <div className="header__right">
           <div className="header-right-wrapper">
             <div className="h-right-segment__btn register-popup-open">
-              <a href="javascript:;">Register Interest</a>
+              <button onClick={togglePopup}>Register Interest</button>
             </div>
             <div className="h-right-segment">
               {/*
