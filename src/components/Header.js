@@ -46,8 +46,8 @@ function Header() {
       // } ${isMenuActive ? "" : "open-menu"}`}
       className={
         isActive
-          ? `header animate__animated animate__fadeInUp header-light hdr-white `
-          :`header animate__animated animate__fadeInUp dark-light hdr-white`
+          ? `header animate__animated animate__fadeInUp header-light `
+          :`header animate__animated animate__fadeInUp dark-light `
       }
       // data-animation="fadeInUp"
       // data-duration="100"

@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from "../components/Header.js";
 import Banner from "../components/Homepage/BannerSection.js";
 import "../index.css";
 
@@ -36,20 +35,12 @@ function Home() {
     fadingEffect={"slides"}
     scrollHorizontally={true}
     onLeave ={ function(index, nextIndex, direction) {
-        // var leavingSection = $(this);
-
-        // //after leaving section 2
-        // if (direction == 'down') {
-        //     $('.header').addClass("hdr-white");
-        // } else if (direction == 'up') {
-        //     $('.header').removeClass("hdr-white");
-        // }
-
         console.log(direction)
         if (direction === 'down') {
-            document.header.classList.add("hdr-white");
-          } else {
-            document.body.classList.remove("hdr-white");
+            document.querySelector("header").classList.add("hdr-white");
+        } 
+        if(direction === 'up'){
+            document.querySelector("header").classList.remove("hdr-white");
           }
     }
 }
@@ -64,6 +55,7 @@ function Home() {
             <MasterplanSection state={state}/>
             {/* <NewsroomSection /> */}
             <LocationSection></LocationSection>
+            <Footer />
 
         </ReactFullpage.Wrapper>
       );

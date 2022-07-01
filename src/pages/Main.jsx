@@ -55,7 +55,6 @@ const Main = () => (
     //scrollingSpeed={1000} /* Options here */
     render={({ state, fullpageApi }) => {
 
-      // console.log(state)
       return (
         <>
         
