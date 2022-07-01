@@ -105,7 +105,7 @@ function Header() {
                         <div className="mega-footer">
                           <div className="bathrooms">
                             <img
-                              src="/assets/svg/unit-feature/bedroom.svg"
+                              src={process.env.PUBLIC_URL +"/assets/svg/unit-feature/bedroom.svg"}
                               alt=""
                               className="animate__animated animate__fadeInUp"
                               data-animation="fadeInUp"
@@ -121,7 +121,7 @@ function Header() {
                           </div>
                           <div className="bathrooms">
                             <img
-                              src="/assets/svg/header/plot.svg"
+                              src={process.env.PUBLIC_URL + "/assets/svg/header/plot.svg"}
                               alt=""
                               className="animate__animated animate__fadeInU"
                               // data-animation="fadeInUp"
@@ -172,7 +172,7 @@ function Header() {
                         <div className="mega-footer">
                           <div className="bathrooms">
                             <img
-                              src="/assets/svg/unit-feature/bedroom.svg"
+                              src={process.env.PUBLIC_URL + "/assets/svg/unit-feature/bedroom.svg"}
                               alt=""
                               // className="animate"
                               data-animation="fadeInUp"
@@ -188,7 +188,7 @@ function Header() {
                           </div>
                           <div className="bathrooms">
                             <img
-                              src="/assets/svg/header/plot.svg"
+                              src={process.env.PUBLIC_URL + "/assets/svg/header/plot.svg"}
                               alt=""
                               // className="animate"
                               data-animation="fadeInUp"
@@ -239,7 +239,7 @@ function Header() {
                         <div className="mega-footer">
                           <div className="bathrooms">
                             <img
-                              src="/assets/svg/unit-feature/bedroom.svg"
+                              src={process.env.PUBLIC_URL + "/assets/svg/unit-feature/bedroom.svg"}
                               alt=""
                               // className="animate"
                               data-animation="fadeInUp"
@@ -255,7 +255,7 @@ function Header() {
                           </div>
                           <div className="bathrooms">
                             <img
-                              src="/assets/svg/header/plot.svg"
+                              src={process.env.PUBLIC_URL +"/assets/svg/header/plot.svg"}
                               alt=""
                               // className="animate"
                               data-animation="fadeInUp"
@@ -1663,7 +1663,7 @@ function Header() {
                             </div>
                             <div className="bathrooms">
                               <img
-                                src="/assets/svg/header/plot.svg"
+                                src={process.env.PUBLIC_URL +"/assets/svg/header/plot.svg"}
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1731,7 +1731,7 @@ function Header() {
                           <div className="mega-footer">
                             <div className="bathrooms">
                               <img
-                                src="/assets/svg/header/bathroom.svg"
+                                src={process.env.PUBLIC_URL+"/assets/svg/header/bathroom.svg"}
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1747,7 +1747,7 @@ function Header() {
                             </div>
                             <div className="bathrooms">
                               <img
-                                src="/assets/svg/header/plot.svg"
+                                src={process.env.PUBLIC_URL + "/assets/svg/header/plot.svg"}
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1815,7 +1815,7 @@ function Header() {
                           <div className="mega-footer">
                             <div className="bathrooms">
                               <img
-                                src="/assets/svg/header/bathroom.svg"
+                                src={process.env.PUBLIC_URL + "/assets/svg/header/bathroom.svg"}
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1831,7 +1831,7 @@ function Header() {
                             </div>
                             <div className="bathrooms">
                               <img
-                                src="/assets/svg/header/plot.svg"
+                                src={process.env.PUBLIC_URL + "/assets/svg/header/plot.svg"}
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1899,7 +1899,7 @@ function Header() {
                           <div className="mega-footer">
                             <div className="bathrooms">
                               <img
-                                src="/assets/svg/header/bathroom.svg"
+                                src={process.env.PUBLIC_URL + "/assets/svg/header/bathroom.svg"}
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1915,7 +1915,7 @@ function Header() {
                             </div>
                             <div className="bathrooms">
                               <img
-                                src="/assets/svg/header/plot.svg"
+                                src={process.env.PUBLIC_URL + "/assets/svg/header/plot.svg"}
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
