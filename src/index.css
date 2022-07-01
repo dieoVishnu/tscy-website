@@ -9892,7 +9892,7 @@ a {
   background: rgba(0, 0, 0, 0.5);
   z-index: 106;
 }
-.register-popup {
+/* .register-popup {
   position: fixed;
   z-index: 999999999;
   left: 50%;
@@ -9903,42 +9903,8 @@ a {
   transform: translate(-50%, -50%);
   height: auto;
   display: none;
-}
-@media (max-width: 767px) {
-  .register-popup {
-    max-width: 100%;
-    width: 90%;
-  }
-}
-.register-popup .about-us-right-img {
-  padding: 2em;
-}
-.register-popup form .twocol-row {
-  margin: 0 -0.5em;
-}
-.register-popup form .twocol-row .col-50 {
-  padding: 0 0.5em;
-}
-.register-popup__cross-btn {
-  width: 2em;
-  position: absolute;
-  top: 1em;
-  right: 1em;
-  cursor: pointer;
-}
-@media (max-width: 991px) {
-  .register-popup > .twocol-row .col-75 {
-    width: 100%;
-  }
-}
-.register-popup > .twocol-row .col-25 {
-  width: 25%;
-}
-@media (max-width: 991px) {
-  .register-popup > .twocol-row .col-25 {
-    display: none;
-  }
-}
+} */
+
 .feature-small-img {
   width: 36.3125em;
 }
@@ -10505,4 +10471,119 @@ code {
 
 .fp-watermark {
   display: none;
+}
+
+/* Register Form */
+
+.scroll-lock {
+  overflow: hidden;
+  margin-right: 17px;
+}
+.modal-cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  transform: translateZ(0);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  /* padding: 2.5em 1.5em 1.5em 1.5em; */
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: auto;
+}
+@media screen and (min-width: 300px) {
+  /* Center the Modal! */
+  .modal-area {
+    left: 50%;
+    top: 50%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    max-width: 75em;
+    margin: auto;
+
+    max-height: calc(100% - 1em);
+  }
+}
+
+@media (max-width: 767px) {
+  .modal-area {
+    max-width: 100%;
+    width: 90%;
+  }
+}
+.modal-area .about-us-right-img {
+  padding: 2em;
+}
+.modal-area form .twocol-row {
+  margin: 0 -0.5em;
+}
+.modal-area form .twocol-row .col-50 {
+  padding: 0 0.5em;
+}
+.modal-area__cross-btn {
+  width: 2em;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .modal-area > .twocol-row .col-75 {
+    width: 100%;
+  }
+}
+.modal-area > .twocol-row .col-25 {
+  width: 25%;
+}
+@media (max-width: 991px) {
+  .modal-area > .twocol-row .col-25 {
+    display: none;
+  }
+}
+
+._modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5em;
+  line-height: 1;
+  background: #f6f6f7;
+  border: 0;
+  box-shadow: 0;
+  cursor: pointer;
+}
+
+._modal-close-icon {
+  width: 25px;
+  height: 25px;
+  fill: transparent;
+  stroke: black;
+  stroke-linecap: round;
+  stroke-width: 2;
+}
+
+.modal-body {
+  padding-top: 0.25em;
+}
+._hide-visual {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
 }

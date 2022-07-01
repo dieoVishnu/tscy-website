@@ -2,26 +2,25 @@ import React, { useState } from "react";
 import "../index.css";
 import logo from "../assets/svg/logo/tsc-logo.svg";
 import logow from "../assets/svg/logo/tsc-logo-white.svg";
+// import ModalButton from "./ModalButton";
+import ContainerModal from "./ContainerModal";
 
 function Header() {
   const [isActive, setActive] = useState("false");
   const [isMenuActive, setMenuActive] = useState("false");
   const [isPopupActive, setPopupActive] = useState("false");
 
-  // document.body.classList.add("popup-open");
+  const triggerText = "Register Interest";
+  const onSubmit = (event) => {
+    event.preventDefault(event);
+    console.log(event.target.first_name.value);
+    console.log(event.target.email.value);
+  };
 
   const toggleClass = () => {
     setActive(!isActive);
   };
 
-  // const toggleMenuClass = () => {
-  //   setMenuActive(!isMenuActive);
-  //   if (document.body.classList.contains("open-menu")) {
-  //     document.body.classList.remove("open-menu");
-  //   } else {
-  //     document.body.classList.add("open-menu");
-  //   }
-  // };
   const toggleMenuClass = () => {
     setMenuActive(!isMenuActive);
     document.querySelector("body").classList.toggle("open-menu");
@@ -105,7 +104,10 @@ function Header() {
                         <div className="mega-footer">
                           <div className="bathrooms">
                             <img
-                              src={process.env.PUBLIC_URL +"/assets/svg/unit-feature/bedroom.svg"}
+                              src={
+                                process.env.PUBLIC_URL +
+                                "/assets/svg/unit-feature/bedroom.svg"
+                              }
                               alt=""
                               className="animate__animated animate__fadeInUp"
                               data-animation="fadeInUp"
@@ -121,7 +123,10 @@ function Header() {
                           </div>
                           <div className="bathrooms">
                             <img
-                              src={process.env.PUBLIC_URL + "/assets/svg/header/plot.svg"}
+                              src={
+                                process.env.PUBLIC_URL +
+                                "/assets/svg/header/plot.svg"
+                              }
                               alt=""
                               className="animate__animated animate__fadeInU"
                               // data-animation="fadeInUp"
@@ -172,7 +177,10 @@ function Header() {
                         <div className="mega-footer">
                           <div className="bathrooms">
                             <img
-                              src={process.env.PUBLIC_URL + "/assets/svg/unit-feature/bedroom.svg"}
+                              src={
+                                process.env.PUBLIC_URL +
+                                "/assets/svg/unit-feature/bedroom.svg"
+                              }
                               alt=""
                               // className="animate"
                               data-animation="fadeInUp"
@@ -188,7 +196,10 @@ function Header() {
                           </div>
                           <div className="bathrooms">
                             <img
-                              src={process.env.PUBLIC_URL + "/assets/svg/header/plot.svg"}
+                              src={
+                                process.env.PUBLIC_URL +
+                                "/assets/svg/header/plot.svg"
+                              }
                               alt=""
                               // className="animate"
                               data-animation="fadeInUp"
@@ -239,7 +250,10 @@ function Header() {
                         <div className="mega-footer">
                           <div className="bathrooms">
                             <img
-                              src={process.env.PUBLIC_URL + "/assets/svg/unit-feature/bedroom.svg"}
+                              src={
+                                process.env.PUBLIC_URL +
+                                "/assets/svg/unit-feature/bedroom.svg"
+                              }
                               alt=""
                               // className="animate"
                               data-animation="fadeInUp"
@@ -255,7 +269,10 @@ function Header() {
                           </div>
                           <div className="bathrooms">
                             <img
-                              src={process.env.PUBLIC_URL +"/assets/svg/header/plot.svg"}
+                              src={
+                                process.env.PUBLIC_URL +
+                                "/assets/svg/header/plot.svg"
+                              }
                               alt=""
                               // className="animate"
                               data-animation="fadeInUp"
@@ -1663,7 +1680,10 @@ function Header() {
                             </div>
                             <div className="bathrooms">
                               <img
-                                src={process.env.PUBLIC_URL +"/assets/svg/header/plot.svg"}
+                                src={
+                                  process.env.PUBLIC_URL +
+                                  "/assets/svg/header/plot.svg"
+                                }
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1731,7 +1751,10 @@ function Header() {
                           <div className="mega-footer">
                             <div className="bathrooms">
                               <img
-                                src={process.env.PUBLIC_URL+"/assets/svg/header/bathroom.svg"}
+                                src={
+                                  process.env.PUBLIC_URL +
+                                  "/assets/svg/header/bathroom.svg"
+                                }
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1747,7 +1770,10 @@ function Header() {
                             </div>
                             <div className="bathrooms">
                               <img
-                                src={process.env.PUBLIC_URL + "/assets/svg/header/plot.svg"}
+                                src={
+                                  process.env.PUBLIC_URL +
+                                  "/assets/svg/header/plot.svg"
+                                }
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1815,7 +1841,10 @@ function Header() {
                           <div className="mega-footer">
                             <div className="bathrooms">
                               <img
-                                src={process.env.PUBLIC_URL + "/assets/svg/header/bathroom.svg"}
+                                src={
+                                  process.env.PUBLIC_URL +
+                                  "/assets/svg/header/bathroom.svg"
+                                }
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1831,7 +1860,10 @@ function Header() {
                             </div>
                             <div className="bathrooms">
                               <img
-                                src={process.env.PUBLIC_URL + "/assets/svg/header/plot.svg"}
+                                src={
+                                  process.env.PUBLIC_URL +
+                                  "/assets/svg/header/plot.svg"
+                                }
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1899,7 +1931,10 @@ function Header() {
                           <div className="mega-footer">
                             <div className="bathrooms">
                               <img
-                                src={process.env.PUBLIC_URL + "/assets/svg/header/bathroom.svg"}
+                                src={
+                                  process.env.PUBLIC_URL +
+                                  "/assets/svg/header/bathroom.svg"
+                                }
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1915,7 +1950,10 @@ function Header() {
                             </div>
                             <div className="bathrooms">
                               <img
-                                src={process.env.PUBLIC_URL + "/assets/svg/header/plot.svg"}
+                                src={
+                                  process.env.PUBLIC_URL +
+                                  "/assets/svg/header/plot.svg"
+                                }
                                 alt=""
                                 className="animate"
                                 data-animation="fadeInUp"
@@ -1952,7 +1990,8 @@ function Header() {
         <div className="header__right">
           <div className="header-right-wrapper">
             <div className="h-right-segment__btn register-popup-open">
-              <button onClick={togglePopup}>Register Interest</button>
+              {/* <button onClick={togglePopup}>Register Interest</button> */}
+              <ContainerModal triggerText={triggerText} onSubmit={onSubmit} />
             </div>
             <div className="h-right-segment">
               {/*
