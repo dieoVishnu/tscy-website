@@ -7,6 +7,8 @@ function Header() {
   const [isActive, setActive] = useState("false");
   const [isMenuActive, setMenuActive] = useState("false");
 
+  // document.body.classList.add("popup-open");
+
   const toggleClass = () => {
     setActive(!isActive);
   };
@@ -19,8 +21,6 @@ function Header() {
       document.body.classList.add("open-menu");
     }
   };
-
-
 
   return (
     <header
@@ -1976,6 +1976,7 @@ function Header() {
             // className="toggle-menu"
             onClick={toggleMenuClass}
           >
+            {/* find solution for this */}
             <a href="javascript:">
               <span></span>
               <span></span>
