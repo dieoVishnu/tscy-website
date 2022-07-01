@@ -5,11 +5,9 @@ import logow from "../assets/svg/logo/tsc-logo-white.svg";
 // import ModalButton from "./ModalButton";
 import ContainerModal from "./ContainerModal";
 
-
 function Header() {
   const [isActive, setActive] = useState("false");
   const [isMenuActive, setMenuActive] = useState("false");
-  const [isPopupActive, setPopupActive] = useState("false");
 
   const triggerText = "Register Interest";
   const onSubmit = (event) => {
@@ -27,13 +25,6 @@ function Header() {
     document.querySelector("body").classList.toggle("open-menu");
   };
 
-  const togglePopup = () => {
-    setPopupActive(!isPopupActive);
-    document.querySelector("body").classList.toggle("popup-open");
-  };
-
-
-
   return (
     <header
       id="header"
@@ -46,7 +37,7 @@ function Header() {
       className={
         isActive
           ? `header animate__animated animate__fadeInUp header-light `
-          :`header animate__animated animate__fadeInUp dark-light `
+          : `header animate__animated animate__fadeInUp dark-light `
       }
       // data-animation="fadeInUp"
       // data-duration="100"
@@ -2029,12 +2020,12 @@ function Header() {
             onClick={toggleMenuClass}
           >
             {/* find solution for this */}
-            <a href="javascript:">
+            <div>
               <span></span>
               <span></span>
               <span></span>
               <span></span>
-            </a>
+            </div>
           </div>
         </div>
       </div>
