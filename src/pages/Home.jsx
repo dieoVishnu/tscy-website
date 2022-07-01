@@ -1,3 +1,4 @@
+import React from 'react'
 import Header from "../components/Header.js";
 import Banner from "../components/Homepage/BannerSection.js";
 import "../index.css";
@@ -8,12 +9,10 @@ import LocationSection from "../components/Homepage/LocationSection";
 import Footer from "../components/Footer";
 import Features from "../components/Homepage/Features.js";
 
-
-const Main = () => (
-
-
-
-  <ReactFullpage
+function Home() {
+  return (
+    <>
+    <ReactFullpage
     autoScrolling={true}
     navigation={true}
     navigationTooltips={[
@@ -36,41 +35,44 @@ const Main = () => (
     navigationPosition={"left"}
     fadingEffect={"slides"}
     scrollHorizontally={true}
-    onLeave={(origin, destination, direction) => {}}
-    //fadingEffect={"slides"}
-    /* onLeave={function (index, nextIndex, direction) {
-      var leavingSection = this;
+    onLeave ={ function(index, nextIndex, direction) {
+        // var leavingSection = $(this);
 
-      //after leaving section 2
-      if (direction == "down") {
-        ".header".addClass("hdr-white");
-      } else if (direction == "up") {
-        ".header".removeClass("hdr-white");
-      }
-    }}*/
-    //fullpage options
-    //licenseKey={"YOUR_KEY_HERE"}
-    //scrollingSpeed={1000} /* Options here */
+        // //after leaving section 2
+        // if (direction == 'down') {
+        //     $('.header').addClass("hdr-white");
+        // } else if (direction == 'up') {
+        //     $('.header').removeClass("hdr-white");
+        // }
+
+        console.log(direction)
+        if (direction === 'down') {
+            document.header.classList.add("hdr-white");
+          } else {
+            document.body.classList.remove("hdr-white");
+          }
+    }
+}
+
     render={({ state, fullpageApi }) => {
-
-      // console.log(state)
       return (
-        <>
-        
-          <ReactFullpage.Wrapper>
-            <Banner></Banner>
+        <ReactFullpage.Wrapper>
+
+            <Banner />
             {/* <SustainableFeaturesSection></SustainableFeaturesSection> */}
             <Features />
             <MasterplanSection state={state}/>
             {/* <NewsroomSection /> */}
             <LocationSection></LocationSection>
-            
-          </ReactFullpage.Wrapper>
-          <Footer />
-        </>
+
+        </ReactFullpage.Wrapper>
       );
     }}
   />
-);
 
-export default Main;
+
+    </>
+  )
+}
+
+export default Home

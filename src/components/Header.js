@@ -3,6 +3,7 @@ import "../index.css";
 import logo from "../assets/svg/logo/tsc-logo.svg";
 import logow from "../assets/svg/logo/tsc-logo-white.svg";
 
+
 function Header() {
   const [isActive, setActive] = useState("false");
   const [isMenuActive, setMenuActive] = useState("false");
@@ -22,6 +23,8 @@ function Header() {
 
 
 
+
+
   return (
     <header
       id="header"
@@ -33,8 +36,8 @@ function Header() {
       // } ${isMenuActive ? "" : "open-menu"}`}
       className={
         isActive
-          ? "header animate__animated animate__fadeInUp header-light"
-          : "header animate__animated animate__fadeInUp dark-light"
+          ? `header animate__animated animate__fadeInUp header-light hdr-white `
+          :`header animate__animated animate__fadeInUp dark-light hdr-white`
       }
       // data-animation="fadeInUp"
       // data-duration="100"
