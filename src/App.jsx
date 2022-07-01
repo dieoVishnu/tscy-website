@@ -1,7 +1,7 @@
 import React from 'react'
 import Main from './pages/Main'
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -19,7 +19,7 @@ function App() {
 
   return (
     
-    <BrowserRouter>
+    <HashRouter hashType="hashbang">
     <Routes>
         <Route path="/" exact element={<Main />} />
         <Route path="*" exact element={<Loader />} />
@@ -32,7 +32,7 @@ function App() {
         <Route path='newsroom/newsdetails' element={<NewsDetails />} />
     </Routes>
     
-  </BrowserRouter>
+  </HashRouter>
   )
 }
 

@@ -22,13 +22,13 @@ function Home() {
       "Newsroom",
       "Location"
     ]}
-    anchors={[
-      "TheSustainableCityYiti",
-      "SustainableFeatures",
-      "MasterPlan",
-      "Newsroom",
-      "Location"
-    ]}
+    // anchors={[
+    //   "TheSustainableCityYiti",
+    //   "SustainableFeatures",
+    //   "MasterPlan",
+    //   "Newsroom",
+    //   "Location"
+    // ]}
     showActiveTooltip={true}
     scrollingSpeed={1000}
     navigationPosition={"left"}
