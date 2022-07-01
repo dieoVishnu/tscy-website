@@ -8,7 +8,7 @@ function About() {
     <div className='about-test'>
 
 
-    <Header />
+    {/* <Header /> */}
 {/*?php include('includes/header.php'); ?*/}
 <section className="section about-us-section">
 <div className="twocol-row">

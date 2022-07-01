@@ -31,7 +31,11 @@ function NewsroomSection() {
         <Swiper
       spaceBetween={30}
       slidesPerView={4}
-      pagination={pagination}
+      pagination= {{
+        el:".news-pagination",
+        clickable: true
+    }}
+      // pagination={pagination}
         modules={[Pagination]}
         className="mySwiper"
       breakpoints= {{
@@ -183,6 +187,7 @@ function NewsroomSection() {
       data-animation="fadeInUp"
       data-duration={700}
     >
+
       <div className="newsroom-inner">
         <div className="newsroom-img">
           <img
@@ -304,6 +309,8 @@ function NewsroomSection() {
         </SwiperSlide>
 
     </Swiper>
+
+    <div class="news-pagination"></div>
 
 
         

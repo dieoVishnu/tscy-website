@@ -7,6 +7,7 @@ import MasterplanSection from "../components/Homepage/MasterplanSection";
 import LocationSection from "../components/Homepage/LocationSection";
 import Footer from "../components/Footer";
 import Features from "../components/Homepage/Features.js";
+import NewsroomSection from '../components/Homepage/NewsroomSection.js';
 
 function Home() {
   return (
@@ -35,7 +36,6 @@ function Home() {
     fadingEffect={"slides"}
     scrollHorizontally={true}
     onLeave ={ function(index, nextIndex, direction) {
-        console.log(direction)
         if (direction === 'down') {
             document.querySelector("header").classList.add("hdr-white");
         } 
@@ -53,8 +53,8 @@ function Home() {
             {/* <SustainableFeaturesSection></SustainableFeaturesSection> */}
             <Features />
             <MasterplanSection state={state}/>
-            {/* <NewsroomSection /> */}
-            <LocationSection></LocationSection>
+            <NewsroomSection />
+            <LocationSection />
             <Footer />
 
         </ReactFullpage.Wrapper>
