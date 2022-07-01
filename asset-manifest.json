@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tscy-website/static/css/main.1efbf9c7.css",
-    "main.js": "/tscy-website/static/js/main.e18891d2.js",
+    "main.css": "/tscy-website/static/css/main.c4ff5727.css",
+    "main.js": "/tscy-website/static/js/main.851273ce.js",
     "static/media/ocean-map-layer.png": "/tscy-website/static/media/ocean-map-layer.38d1dd8d2b0c5c18d1c9.png",
     "static/media/banner-img-2.png": "/tscy-website/static/media/banner-img-2.a2799cc82ee17262c09b.png",
     "static/media/banner-img-3.png": "/tscy-website/static/media/banner-img-3.ba72edd3f5cba8689639.png",
@@ -18,11 +18,11 @@
     "static/media/arrow_contactus.svg": "/tscy-website/static/media/arrow_contactus.066baf72a002d3f1cf1d.svg",
     "static/media/icons8-instagram.svg": "/tscy-website/static/media/icons8-instagram.fcf217d2fb087d563fb62a613bdc5d0b.svg",
     "static/media/facebook.svg": "/tscy-website/static/media/facebook.abf94d64445039dac7457a190d1e8d69.svg",
-    "main.1efbf9c7.css.map": "/tscy-website/static/css/main.1efbf9c7.css.map",
-    "main.e18891d2.js.map": "/tscy-website/static/js/main.e18891d2.js.map"
+    "main.c4ff5727.css.map": "/tscy-website/static/css/main.c4ff5727.css.map",
+    "main.851273ce.js.map": "/tscy-website/static/js/main.851273ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.1efbf9c7.css",
-    "static/js/main.e18891d2.js"
+    "static/css/main.c4ff5727.css",
+    "static/js/main.851273ce.js"
   ]
 }
