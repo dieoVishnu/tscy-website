@@ -12,8 +12,6 @@ import BrokerSimple from './pages/BrokerSimple';
 import News from './pages/News';
 import AboutTest from './pages/AboutTest';
 import NewsDetails from './components/Detailpage/NewsDetails';
-import Header from './components/Header';
-import Home from './pages/Home';
 
 function App() {
 
@@ -21,9 +19,8 @@ function App() {
   return (
     
     <BrowserRouter>
-    <Header />
     <Routes>
-        <Route path="/" exact element={<Home />} />
+        <Route path="/" exact element={<Main />} />
         <Route path="contact-us" element={<Contact />} />
         <Route path="aboutus" element={<About />} />
         {/* <Route path="careers" element={<AboutTest />} /> */}

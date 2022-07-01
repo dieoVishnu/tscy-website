@@ -310,7 +310,7 @@ function NewsroomSection() {
 
     </Swiper>
 
-    <div class="news-pagination"></div>
+    <div className="news-pagination"></div>
 
 
         

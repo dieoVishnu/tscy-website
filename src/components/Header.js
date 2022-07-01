@@ -77,7 +77,7 @@ function Header() {
                   onMouseLeave={toggleClass}
                 >
                   <a
-                    href="/#MasterPlan"
+                    href="#MasterPlan"
                     className="h-service-cta appartment-cta"
                   >
                     <p> Find Your Villa </p>

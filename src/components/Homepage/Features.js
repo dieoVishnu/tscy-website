@@ -67,7 +67,7 @@ function Features() {
             icons: <Recycle />,
             heading: "Environmental SUSTAINABIlitY",
             sub: "Maintained through passive and active design strategies",
-            img: "assets/images/sustainable-feature/ENVIRONMENT-min.jpeg"
+            img: "/assets/images/sustainable-feature/ENVIRONMENT-min.jpeg"
 
         },
         {
@@ -76,7 +76,7 @@ function Features() {
             icons: <TimerHand />,
             heading: "Economic SUSTAINABIlitY",
             sub: "Facilitated through operational efficiencies, savings for residents, and contribution to a green economy",
-            img: "assets/images/sustainable-feature/ECONOMIC-min.jpeg"
+            img: "/assets/images/sustainable-feature/ECONOMIC-min.jpeg"
 
         },
     ]
@@ -91,7 +91,7 @@ function Features() {
 
                     {data.map((e,index)=>(
 
-                        <div className={e.id === active ? "swiper-slide-thumb-active feature-navigation__item item-width" : "feature-navigation__item item-width" }>
+                        <div key={index} className={e.id === active ? "swiper-slide-thumb-active feature-navigation__item item-width" : "feature-navigation__item item-width" }>
                             <div  key={index} className="feature-navigation__image m-0" onClick={event => handelClick(e.id)}  >
                                 {/* <img onClick={evnt =>setActive(e.id)} className="svg-convert .svg" src={e.icons} alt="feature-nav-icon" /> */}
                                 {e.icons}
@@ -102,11 +102,11 @@ function Features() {
                 </div>
                 <div className="col-90">
                 {data.map((e,index)=>(
-<>
+<div key={index}>
 
                     
         {/* {e.id === active ? ( */}
-                    <div className={e.id === active ? "feature-box active-display" : "feature-box display-none"} key={index}>
+                    <div className={e.id === active ? "feature-box active-display" : "feature-box display-none"}>
               <div className="swiper feature-wrap-content">
                 <div className="swiper-wrapper">
                   <div className="swiper-slide">
@@ -133,7 +133,7 @@ function Features() {
                           <div className="swiper feature-img-wrapper">
                             <div className="swiper-wrapper">
                               <div className="feature-small-img swiper-slide">
-                                <img src={e.img} className="feature-img-anim" alt="feature0-small-img " />
+                                <img src={process.env.PUBLIC_URL + e.img} className="feature-img-anim" alt="feature0-small-img " />
                               </div>
                             </div>
                             {/* <div className="swiper-pagination"></div> */}
@@ -149,7 +149,7 @@ function Features() {
 
             {/* //   ): (<></>)} */}
 
-</>
+</div>
 ))}
 
 

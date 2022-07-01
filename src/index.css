@@ -10508,3 +10508,10 @@ code {
 .fp-watermark {
   display: none;
 }
+
+/* 
+ */
+
+ #fp-nav ul li:last-child{
+  display: none;
+ }

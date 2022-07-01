@@ -19,16 +19,15 @@ function Home() {
       "The Sustainable City Yiti",
       "Sustainable Features",
       "Master Plan",
-      // "Newsroom",
-      "Location",
+      "Newsroom",
+      "Location"
     ]}
     anchors={[
       "TheSustainableCityYiti",
       "SustainableFeatures",
       "MasterPlan",
-      // "Newsroom",
-      "Location",
-      ""
+      "Newsroom",
+      "Location"
     ]}
     showActiveTooltip={true}
     scrollingSpeed={1000}
@@ -50,7 +49,6 @@ function Home() {
         <ReactFullpage.Wrapper>
 
             <Banner />
-            {/* <SustainableFeaturesSection></SustainableFeaturesSection> */}
             <Features />
             <MasterplanSection state={state}/>
             <NewsroomSection />
