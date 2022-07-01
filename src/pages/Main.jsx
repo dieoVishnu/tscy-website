@@ -8,6 +8,8 @@ import LocationSection from "../components/Homepage/LocationSection";
 import Footer from "../components/Footer";
 import Features from "../components/Homepage/Features.js";
 
+import NewsroomSection from "../components/Homepage/NewsroomSection.js";
+
 
 const Main = () => (
 
@@ -20,14 +22,14 @@ const Main = () => (
       "The Sustainable City Yiti",
       "Sustainable Features",
       "Master Plan",
-      // "Newsroom",
+      "Newsroom",
       "Location",
     ]}
     anchors={[
       "TheSustainableCityYiti",
       "SustainableFeatures",
       "MasterPlan",
-      // "Newsroom",
+      "Newsroom",
       "Location",
       ""
     ]}
@@ -59,10 +61,9 @@ const Main = () => (
         
           <ReactFullpage.Wrapper>
             <Banner></Banner>
-            {/* <SustainableFeaturesSection></SustainableFeaturesSection> */}
             <Features />
             <MasterplanSection state={state}/>
-            {/* <NewsroomSection /> */}
+            <NewsroomSection />
             <LocationSection></LocationSection>
             
           </ReactFullpage.Wrapper>

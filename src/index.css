@@ -9784,7 +9784,7 @@ a {
   .menu-card {
   padding: 1.5em 1.5em 3em;
 }
-.header .header__right .header-right-wrapper .h-right-segment__btn a {
+.header .header__right .header-right-wrapper .h-right-segment__btn button {
   color: #0792aa;
 }
 .header {
@@ -9831,7 +9831,7 @@ a {
   .header__right
   .header-right-wrapper
   .h-right-segment__btn
-  a {
+  button {
   font-size: 1.125em;
   padding: 0.555em 1.6666em;
   display: inline-block;
@@ -9847,7 +9847,7 @@ a {
   .header__right
   .header-right-wrapper
   .h-right-segment__btn
-  a:hover {
+  button:hover {
   color: #e79035;
   border-color: #e79035;
 }
@@ -9858,13 +9858,14 @@ a {
 .header.hdr-white {
   top: -100%;
 }
+
 .homepage
   .fp-viewing-0
   .header__wrapper
   .header__right
   .header-right-wrapper
   .h-right-segment__btn
-  a {
+  button {
   color: #a4a6a7;
   border-color: #a4a6a7;
 }
@@ -9874,7 +9875,7 @@ a {
   .header__right
   .header-right-wrapper
   .h-right-segment__btn
-  a:hover {
+  button:hover {
   color: #e79035;
   border-color: #e79035;
 }
@@ -10444,62 +10445,57 @@ code {
   display: none !important;
 }
 
-
-
 /* about us page */
 
-.about-test{
+.about-test {
   /* overflow: scroll !important; */
   width: 100%;
   height: 100%;
 }
 
-.about-test .about-us-section .scroll-content{ 
+.about-test .about-us-section .scroll-content {
   overflow: scroll;
 }
 
 @media (max-width: 767px) {
-.about-us-section .about-txt-sec {
+  .about-us-section .about-txt-sec {
     height: 100%;
   }
-  .about-us-section .about-us-wrapper .about-us-text{
+  .about-us-section .about-us-wrapper .about-us-text {
     height: 100%;
   }
 }
 
-
-.career-test{
+.career-test {
   /* height: 100vh; */
   /* overflow-x: hidden; */
 }
 
-.career-test .career-section{
+.career-test .career-section {
   height: 100vh;
 }
 
-
 @media (max-width: 922px) {
-  .career-test .career-section{
+  .career-test .career-section {
     height: 100%;
   }
-.career-section .col-65 {
+  .career-section .col-65 {
     width: 100%;
     height: 100%;
-}
+  }
 
-.career-section .col-65 .career-content .career-text-box{
-  height: 100%;
+  .career-section .col-65 .career-content .career-text-box {
+    height: 100%;
+  }
 }
-}
-
 
 /* new details */
 
-.news-details-test .news-detail .news-content{
+.news-details-test .news-detail .news-content {
   overflow: scroll !important;
   /* height: 100%; */
 }
-.news-details-test .news-detail .news-content .scroll-content{
+.news-details-test .news-detail .news-content .scroll-content {
   overflow: scroll !important;
   width: 100%;
   height: 30rem;
@@ -10507,6 +10503,6 @@ code {
   z-index: 10;
 }
 
-.fp-watermark{
+.fp-watermark {
   display: none;
 }
