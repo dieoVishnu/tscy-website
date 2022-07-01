@@ -10492,11 +10492,13 @@ code {
 /* new details */
 
 .news-details-test .news-detail .news-content {
-  overflow: scroll !important;
+  /* overflow: scroll !important; */
+  overflow: hidden;
   /* height: 100%; */
 }
 .news-details-test .news-detail .news-content .scroll-content {
-  overflow: scroll !important;
+  /* overflow: scroll !important; */
+  overflow-y: auto;
   width: 100%;
   height: 30rem;
   position: relative;
