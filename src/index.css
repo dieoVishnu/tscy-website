@@ -10458,11 +10458,13 @@ code {
 /* new details */
 
 .news-details-test .news-detail .news-content {
-  overflow: scroll !important;
+  /* overflow: scroll !important; */
+  overflow: hidden;
   /* height: 100%; */
 }
 .news-details-test .news-detail .news-content .scroll-content {
-  overflow: scroll !important;
+  /* overflow: scroll !important; */
+  overflow-y: auto;
   width: 100%;
   height: 30rem;
   position: relative;
@@ -10473,6 +10475,7 @@ code {
   display: none;
 }
 
+<<<<<<< HEAD
 /* Register Form */
 
 .scroll-lock {
@@ -10587,3 +10590,11 @@ code {
   width: 1px !important;
   white-space: nowrap !important;
 }
+=======
+/* 
+ */
+
+ #fp-nav ul li:last-child{
+  display: none;
+ }
+>>>>>>> 8b1f3e0e88c473b6f9612b4a9105b556873c730a

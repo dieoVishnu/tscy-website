@@ -5,6 +5,7 @@ import logow from "../assets/svg/logo/tsc-logo-white.svg";
 // import ModalButton from "./ModalButton";
 import ContainerModal from "./ContainerModal";
 
+
 function Header() {
   const [isActive, setActive] = useState("false");
   const [isMenuActive, setMenuActive] = useState("false");
@@ -31,6 +32,8 @@ function Header() {
     document.querySelector("body").classList.toggle("popup-open");
   };
 
+
+
   return (
     <header
       id="header"
@@ -42,8 +45,8 @@ function Header() {
       // } ${isMenuActive ? "" : "open-menu"}`}
       className={
         isActive
-          ? "header animate__animated animate__fadeInUp header-light"
-          : "header animate__animated animate__fadeInUp dark-light"
+          ? `header animate__animated animate__fadeInUp header-light `
+          :`header animate__animated animate__fadeInUp dark-light `
       }
       // data-animation="fadeInUp"
       // data-duration="100"
@@ -73,7 +76,7 @@ function Header() {
                   onMouseLeave={toggleClass}
                 >
                   <a
-                    href="/#MasterPlan"
+                    href="#MasterPlan"
                     className="h-service-cta appartment-cta"
                   >
                     <p> Find Your Villa </p>
