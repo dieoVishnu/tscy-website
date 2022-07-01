@@ -12,6 +12,7 @@ import BrokerSimple from './pages/BrokerSimple';
 import News from './pages/News';
 import AboutTest from './pages/AboutTest';
 import NewsDetails from './components/Detailpage/NewsDetails';
+import Loader from './components/Loader';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
     <BrowserRouter>
     <Routes>
         <Route path="/" exact element={<Main />} />
+        <Route path="*" exact element={<Loader />} />
         <Route path="contact-us" element={<Contact />} />
         <Route path="aboutus" element={<About />} />
         {/* <Route path="careers" element={<AboutTest />} /> */}
